@@ -1,7 +1,6 @@
 #############################################################
 # THIS IS AN RSS/ATOM FEEDS FOR ZEPPE-LIN PACKAGES' SOURCES #
 #############################################################
-
 +------+
 |.CORE.|
 +------+
@@ -131,6 +130,9 @@ https://git.savannah.nongnu.org/cgit/patch.git/atom                             
 https://github.com/pciutils/pciutils/releases.atom                                                "~[r  ] pciutils" core
 https://github.com/Perl/perl5/releases.atom                                                       "~[r  ] perl" core
 https://gitlab.freedesktop.org/pkg-config/pkg-config/-/tags?format=atom                           "~[r  ] pkg-config" core
+https://github.com/zeppe-lin/pkgman/commits/master.atom                                           "~[c! ] pkgman" core
+https://github.com/zeppe-lin/pkgmk/commits/master.atom                                            "~[c! ] pkgmk" core
+https://github.com/zeppe-lin/pkgutils/commits/master.atom                                         "~[c! ] pkgutils" core
 https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=procps                                          "~[x  ] procps" core
 https://gitlab.com/procps-ng/procps/-/tags?format=atom                                            "~[r  ] procps" core
 https://sourceforge.net/projects/psmisc/rss?path=/psmisc                                          "~[r  ] psmisc" core
@@ -139,6 +141,8 @@ https://github.com/python/cpython/releases.atom                                 
 https://github.com/leahneukirchen/outils/commits/master/src/usr.sbin/rdate.atom                   "~[c  ] rdate" core
 https://github.com/leahneukirchen/outils/releases.atom                                            "~[r  ] rdate" core
 https://git.savannah.nongnu.org/cgit/readline.git/atom                                            "~[cr ] readline" core
+https://github.com/zeppe-lin/rejmerge/commits/master.atom                                         "~[c! ] rejmerge" core
+https://github.com/zeppe-lin/revdep/commits/master.atom                                           "~[c! ] revdep" core
 https://github.com/ruby/ruby/releases.atom                                                        "~[r  ] ruby" core
 https://github.com/michaelforney/samurai/releases.atom                                            "~[r  ] samurai" core
 https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=sed                                             "~[x  ] sed" core
@@ -254,6 +258,7 @@ https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=lvm2                           
 https://github.com/lfs-book/make-ca/releases.atom                                                 "~[r  ] make-ca" system
 https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=mdadm                                            "~[x  ] mdadm" system
 https://git.kernel.org/pub/scm/utils/mdadm/mdadm.git/atom/?h=master                               "~[cr ] mdadm" system
+https://github.com/zeppe-lin/mkinitramfs/commits/master.atom                                      "~[c! ] mkinitramfs" system
 https://crux.nu/gitweb/?p=ports/contrib.git;a=atom;f=monit                                        "~[x  ] monit" system
 https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=mysql                                            "~[x  ] mysql" system
 https://github.com/gnutls/nettle/releases.atom                                                    "~[r  ] nettle" system
@@ -268,6 +273,7 @@ https://sourceforge.net/projects/oprofile/rss?path=/oprofile                    
 https://github.com/p11-glue/p11-kit/releases.atom                                                 "~[r  ] p11-kit" system
 https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=parted                                           "~[x  ] parted" system
 https://github.com/gpg/pinentry/releases.atom                                                     "~[r  ] pinentry/pinentry-gtk2" system
+https://github.com/zeppe-lin/pkgmaint/commits/master.atom                                         "~[c! ] pkgmaint" system
 https://github.com/rpm-software-management/popt/releases.atom                                     "~[r  ] popt" system
 https://crux.nu/gitweb/?p=ports/contrib.git;a=atom;f=postgresql                                   "~[x  ] postgresql" system
 https://github.com/fenrus75/powertop/releases.atom                                                "~[r  ] powertop" system
@@ -315,7 +321,7 @@ https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=glslang                        
 https://gitlab.freedesktop.org/mesa/glu/-/tags?format=atom                                        "~[r  ] glu" xorg
 https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=gtk                                              "~[x  ] gtk" xorg
 https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=gtk3                                             "~[x  ] gtk3" xorg
-https://github.com/lah7/gtk3-classic/releases.atom                                                "~[r  ] gtk3-classic (path)" xorg
+https://github.com/lah7/gtk3-classic/releases.atom                                                "~[r  ] gtk3-classic" xorg
 https://github.com/harfbuzz/harfbuzz/releases.atom                                                "~[r  ] harfbuzz" xorg
 https://gitlab.freedesktop.org/xdg/default-icon-theme/-/tags?format=atom                          "~[r  ] hicolor-icon-theme" xorg
 https://gitlab.freedesktop.org/mesa/drm/-/tags?format=atom                                        "~[r  ] libdrm" xorg
@@ -346,6 +352,7 @@ https://github.com/eosrei/twemoji-color-font/releases.atom                      
 https://tracker.debian.org/pkg/xautolock/rss                                                      "~[d  ] xautolock" xorg
 https://github.com/astrand/xclip/releases.atom                                                    "~[r  ] xclip" xorg
 https://github.com/jordansissel/xdotool/releases.atom                                             "~[r  ] xdotool" xorg
+https://github.com/zeppe-lin/xkbswitch/commits/master.atom                                        "~[c! ] xkbswitch" xorg
 https://github.com/freedesktop/xkeyboard-config/releases.atom                                     "~[r  ] xkeyboard-config" xorg
 https://crux.nu/gitweb/?p=ports/xorg.git;a=atom;f=xorg                                            "~[x  ] xorg" xorg
 https://gitlab.freedesktop.org/xorg/util/bdftopcf/-/tags?format=atom                              "~[r  ] xorg-bdftopcf" xorg
@@ -444,6 +451,8 @@ https://sourceforge.net/p/djvu/djvulibre-git/feed                               
 https://sourceforge.net/projects/djvu/rss?path=/DjVuLibre                                         "~[r  ] djvulibre" desktop
 https://crux.nu/gitweb/?p=ports/contrib.git;a=atom;f=dmenu                                        "~[x  ] dmenu" desktop
 https://github.com/dunst-project/dunst/releases.atom                                              "~[r  ] dunst" desktop
+https://github.com/zeppe-lin/dwm/commits/master.atom                                              "~[c! ] dwm" desktop
+https://github.com/zeppe-lin/dwmblocks/commits/master.atom                                        "~[c! ] dwmblocks" desktop
 https://github.com/archlinux/svntogit-community/commits/packages/fbreader/trunk.atom              "~[a  ] fbreader" desktop
 https://sourceforge.net/projects/opencore-amr/rss?path=/fdk-aac                                   "~[r  ] fdk-aac" desktop
 https://github.com/derf/feh/releases.atom                                                         "~[r  ] feh" desktop
@@ -466,6 +475,7 @@ https://github.com/smxi/inxi/commits/master.atom                                
 https://github.com/smxi/inxi/releases.atom                                                        "~[r  ] inxi" desktop
 https://github.com/irssi/irssi/releases.atom                                                      "~[r  ] irssi" desktop
 https://github.com/corretto/corretto-11/releases.atom                                             "~[r  ] jdk11-bin" desktop
+https://github.com/zeppe-lin/jukebox/commits/master.atom                                          "~[c! ] jukebox" desktop
 https://sourceforge.net/projects/lame/rss?path=/lame                                              "~[r  ] lame" desktop
 https://github.com/libass/libass/releases.atom                                                    "~[r  ] libass" desktop
 https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=libcroco                                         "~[x  ] libcroco" desktop
@@ -512,6 +522,7 @@ https://sourceforge.net/projects/qt5ct/rss?path=/                               
 https://github.com/qt/qtstyleplugins/commits/master.atom                                          "~[c  ] qt5-styleplugins" desktop
 https://github.com/qt/qtstyleplugins/releases.atom                                                "~[r  ] qt5-styleplugins" desktop
 https://tracker.debian.org/pkg/ssvnc/rss                                                          "~[d  ] ssvnc" desktop
+https://github.com/zeppe-lin/st/commits/master.atom                                               "~[c! ] st" desktop
 https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=stfl                                             "~[x  ] stfl" desktop
 https://github.com/mtrojnar/stunnel/releases.atom                                                 "~[r  ] stunnel" desktop
 https://github.com/muennich/sxiv/tags.atom                                                        "~[r  ] sxiv" desktop
@@ -522,6 +533,9 @@ https://github.com/TokTok/c-toxcore/commits/master.atom                         
 https://github.com/TokTok/c-toxcore/releases.atom                                                 "~[r  ] toxcore" desktop
 https://github.com/JFreegman/toxic/commits/master.atom                                            "~[c  ] toxic" desktop
 https://github.com/JFreegman/toxic/releases.atom                                                  "~[r  ] toxic" desktop
+https://github.com/zeppe-lin/trinity-extra-theme/commits/master.atom                              "~[c! ] trinity-extra-theme" desktop
+https://github.com/zeppe-lin/trinity-gtk-theme/commits/master.atom                                "~[c! ] trinity-gtk-theme" desktop
+https://github.com/zeppe-lin/trinity-icon-theme/commits/master.atom                               "~[c! ] trinity-icon-theme" desktop
 https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=unrar                                            "~[x  ] unrar" desktop
 https://salsa.debian.org/debian/urlview/-/tags?format=atom                                        "~[d  ] urlview" desktop
 https://github.com/vifm/vifm/releases.atom                                                        "~[r  ] vifm" desktop
