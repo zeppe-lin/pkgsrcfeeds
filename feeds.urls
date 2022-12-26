@@ -4,6 +4,7 @@
 +------+
 |.CORE.|
 +------+
+https://github.com/zeppe-lin/rc/commits/master.atom                                               "~[c! ] rc" core
 https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=acl                                             "~[x  ] acl" core
 https://git.savannah.nongnu.org/cgit/acl.git/atom                                                 "~[cr ] acl" core
 https://crux.nu/gitweb/?p=ports/contrib.git;a=atom;f=asciidoctor                                  "~[x  ] asciidoctor" core
