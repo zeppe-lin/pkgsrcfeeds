@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+
 use strict;
 use warnings;
 use diagnostics;
@@ -31,9 +32,6 @@ my %obsolete_package = map { $_ => 1 } qw(
 
 my %internal_package = map { $_, 1 } qw(
     filesystem
-    handbook
-    office2hashcat
-    pdf2hashcat
     );
 
 my %pkgsrc = map { chomp; $_, 1 } qx(pkgman printf "%n\n");
