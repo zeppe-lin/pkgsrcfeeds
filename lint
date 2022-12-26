@@ -25,7 +25,6 @@ my %obsolete_package = map { $_ => 1 } qw(
     shared-mime-info
     smtp-user-enum
     tnscmd10g
-    picom
     gtk-engines
     transset-df
     );
