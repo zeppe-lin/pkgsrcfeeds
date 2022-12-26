@@ -4,7 +4,6 @@
 +------+
 |.CORE.|
 +------+
-https://github.com/zeppe-lin/rc/commits/master.atom                                               "~[c! ] rc" core
 https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=acl                                             "~[x  ] acl" core
 https://git.savannah.nongnu.org/cgit/acl.git/atom                                                 "~[cr ] acl" core
 https://crux.nu/gitweb/?p=ports/contrib.git;a=atom;f=asciidoctor                                  "~[x  ] asciidoctor" core
@@ -139,6 +138,7 @@ https://gitlab.com/procps-ng/procps/-/tags?format=atom                          
 https://sourceforge.net/projects/psmisc/rss?path=/psmisc                                          "~[r  ] psmisc" core
 https://github.com/pypa/setuptools/releases.atom                                                  "~[r  ] py3-setuptools" core
 https://github.com/python/cpython/releases.atom                                                   "~[r  ] python3" core
+https://github.com/zeppe-lin/rc/commits/master.atom                                               "~[c! ] rc" core
 https://github.com/leahneukirchen/outils/commits/master/src/usr.sbin/rdate.atom                   "~[c  ] rdate" core
 https://github.com/leahneukirchen/outils/releases.atom                                            "~[r  ] rdate" core
 https://git.savannah.nongnu.org/cgit/readline.git/atom                                            "~[cr ] readline" core
