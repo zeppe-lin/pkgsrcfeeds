@@ -10,6 +10,7 @@ use Term::ANSIColor qw(:constants);
 my %obsolete_package = map { $_ => 1 } qw(
     autoconf-2.13
     fuse2
+    gtk-engines
     hcxtools3
     ktsuss
     librsvg-compat
@@ -19,14 +20,14 @@ my %obsolete_package = map { $_ => 1 } qw(
     pango-compat
     pm-utils
     py-cairo
-    py-gobject-compact
     py-gobject-compat
     python
     shared-mime-info
     smtp-user-enum
     tnscmd10g
-    gtk-engines
     transset-df
+    xorg-libxfont
+    xorg-xf86-input-keyboard
     );
 
 my %internal_package = map { $_, 1 } qw(
