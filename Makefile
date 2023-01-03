@@ -11,12 +11,17 @@ check-pkgsrc:
 
 check: check-non200 check-pkgsrc
 
+opml:
+	newsboat -u ${CURDIR}/feeds.urls -e > ${CURDIR}/feeds.opml
+
 help:
 	@echo "Usage: make [TARGET]"
 	@echo ""
-	@echo "check           perform the following targets"
-	@echo "  check-non200  check feeds.urls for non-200 response codes"
-	@echo "  check-pkgsrc  check for feeds.urls to pkgsrc congruence"
+	@echo "TARGETS:"
+	@echo "  check           perform the following targets"
+	@echo "    check-non200  check feeds.urls for non-200 response code"
+	@echo "    check-pkgsrc  check for feeds.urls to pkgsrc congruence"
+	@echo "  opml            convert newsboat urls file to opml"
 	@echo ""
 
 .PHONY: all help
