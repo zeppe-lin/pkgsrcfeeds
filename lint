@@ -1,13 +1,16 @@
 #!/usr/bin/env perl
-
 use strict;
 use warnings;
 use diagnostics;
 use autodie;
-#use File::Basename;
+use File::Basename;
 use Term::ANSIColor qw(:constants);
+use Getopt::Long qw(:config gnu_compat no_ignore_case bundling);
 
-my %obsolete_package = map { $_ => 1 } qw(
+my $PROGRAM = basename $0;
+my $VERSION = '0.1';
+
+my %OBSOLETE_PACKAGE = map { $_ => 1 } qw(
     autoconf-2.13
     fuse2
     gtk-engines
@@ -30,52 +33,94 @@ my %obsolete_package = map { $_ => 1 } qw(
     xorg-xf86-input-keyboard
     );
 
-my %internal_package = map { $_, 1 } qw(
+my %INTERNAL_PACKAGE = map { $_, 1 } qw(
     filesystem
     );
 
-my %pkgsrc = map { chomp; $_, 1 } qx(pkgman printf "%n\n");
+my %REPO_PACKAGE = map { chomp; $_, 1 } qx(pkgman printf "%n\n");
 
-my %feed;
+my %FEED;
 
-open my $fh, 'feeds.urls';
-while (<$fh>) {
-    next unless
-        /^(?:.*?)\s+"~\[.*?\]\s+(?<title>.*?)"(?:\s+(?:.*?)\s+)?$/;
+sub load_feeds {
+    open my $fh, 'feeds.urls';
+    while (<$fh>) {
+        next unless
+            /^(?:.*?)\s+"~\[.*?\]\s+(?<title>.*?)"(?:\s+(?:.*?)\s+)?$/;
 
-    $feed{ $_ }++ for (split /\/\s*/, $+{title});
+        $FEED{ $_ }++ for (split /\/\s*/, $+{title});
+    }
+    close $fh;
 }
-close $fh;
 
-print <<EOF;
+sub print_missing {
+    print <<EOF;
 
-The following packages have no RSS feeds
-========================================
+The following packages have no RSS/Atom feeds
+=============================================
 
 EOF
+    for (sort keys %REPO_PACKAGE) {
+        next if exists $FEED{ $_ };
 
-for (sort keys %pkgsrc) {
-    next if exists $feed{ $_ };
-
-    if ($obsolete_package{ $_ }) {
-        print "[x] \e[9m$_\e[0m (obsolete)\n";
-    } elsif ($internal_package{ $_ }) {
-        print "[v] $_ (internal)\n";
-    } else {
-        print "[ ] $_\n";
+        if    ($OBSOLETE_PACKAGE{ $_ }) {
+            print "[x] \e[9m$_\e[0m \e[3m(obsolete)\e[0m\n";
+        }
+        elsif ($INTERNAL_PACKAGE{ $_ }) {
+            print "[v] \e[9m$_\e[0m \e[3m(internal)\e[0m\n";
+        }
+        else {
+            print "[ ] $_\n";
+        }
     }
 }
 
-print <<EOF;
+sub print_redundant {
+    print <<EOF;
 
-The following feeds are redundant
-=================================
+The following RSS/Atom feeds are redundant
+==========================================
 
 EOF
-
-for (sort keys %feed) {
-    print "$_\n" unless exists $pkgsrc{ $_ };
+    for (sort keys %FEED) {
+        print "$_\n" unless exists $REPO_PACKAGE{ $_ };
+    }
 }
+
+sub print_help {
+    print <<EOF;
+Usage: $PROGRAM [OPTION]...
+Lint RSS/Atom feeds for the software used in Zeppe-Lin for errors.
+
+  -m, --missing    check for packages that have no RSS/Atom feeds
+  -r, --redundant  check for redundant feeds
+  -v, --version    print version and exit
+  -h, --help       print help and exit
+EOF
+}
+
+sub print_version {
+    print "$PROGRAM $VERSION\n";
+}
+
+sub main {
+    GetOptions(
+        "m|missing"     =>  \my $opt_missing,
+        "r|redundant"   =>  \my $opt_redundant,
+        "v|version"     =>  \my $opt_version,
+        "h|help|?"      =>  \my $opt_help,
+    ) or die "$PROGRAM: error in command-line arguments.\n";
+
+    print_version() and exit if $opt_version;
+    print_help()    and exit if $opt_help;
+
+    load_feeds();
+
+    print_missing()          if $opt_missing;
+    print_redundant()        if $opt_redundant;
+}
+
+main() if not caller();
+1;
 
 # vim:sw=4:ts=4:sts=4:et:cc=72:tw=70
 # End of file.
