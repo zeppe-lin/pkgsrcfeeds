@@ -1,30 +1,44 @@
+NEWSBOAT_FEEDS = ${CURDIR}/feeds.urls
+OPML           = ${CURDIR}/feeds.opml
+LINTER         = ${CURDIR}/lint
+
+define USAGE
+Usage: make [TARGET]
+
+TARGETS:
+
+  check              perform the following targets
+    check-urls       check feeds' urls for response code
+    check-missing    check feeds for missing urls
+    check-redundant  check for redundant feeds
+
+  opml               convert newsboat urls file to opml
+endef
+
 all: help
+help:
+	@echo $(info ${USAGE})
 
-check-non200:
-	@echo "=======> Check feeds.urls for non-200 response codes:"
-	@grep -Eiho "https?://[^\"\\'> ]+" ${CURDIR}/feeds.urls | \
-		httpx -silent -fc 200 -sc
+check: check-urls check-missing check-redundant
 
-check-pkgsrc:
-	@echo "=======> Check for feeds.urls to pkgsrc congruence:"
-	@perl ${CURDIR}/lint
+check-urls:
+	@echo "=======> Check feeds.urls for response code"
+	@grep -Eiho "https?://[^\"\\'> ]+" ${NEWSBOAT_FEEDS} \
+		| xargs -P10 -I{} curl -o /dev/null -sw "%{url} [%{http_code}]\n" '{}' \
+		| grep -v '\[200\]$$'
 
-check: check-non200 check-pkgsrc
+check-missing:
+	@echo "=======> Check feeds.urls for missing feeds"
+	@perl ${LINTER} --missing
+
+check-redundant:
+	@echo "=======> Check feeds.urls for redundant feeds"
+	@perl ${LINTER} --redundant
 
 opml:
-	newsboat -u ${CURDIR}/feeds.urls -e > ${CURDIR}/feeds.opml
+	newsboat -u ${NEWSBOAT_FEEDS} -e > ${OPML}
 
-help:
-	@echo "Usage: make [TARGET]"
-	@echo ""
-	@echo "TARGETS:"
-	@echo "  check           perform the following targets"
-	@echo "    check-non200  check feeds.urls for non-200 response code"
-	@echo "    check-pkgsrc  check for feeds.urls to pkgsrc congruence"
-	@echo "  opml            convert newsboat urls file to opml"
-	@echo ""
+.PHONY: all help check check-urls check-missing check-redundant opml
 
-.PHONY: all help
-.PHONY: check
-.PHONY: check-non200 check-pkgsrc
-
+# vim:cc=72
+# End of file.
