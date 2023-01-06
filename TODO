@@ -1,2 +1,11 @@
-* add usage section
-* fix slock url
+TODO pkgsrcfeeds
+
+    README.md:
+      * add usage section
+
+    feeds.urls, feeds.opml:
+      * fix slock url
+
+
+vim:sw=2:ts=2:sts=2:et:cc=72:tw=70
+End of file.
