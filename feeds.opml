@@ -646,6 +646,7 @@
     <outline type="rss" xmlUrl="https://github.com/netdiscover-scanner/netdiscover/releases.atom" htmlUrl="" title="[r  ] netdiscover"/>
     <outline type="rss" xmlUrl="https://github.com/sullo/nikto/commits/master.atom" htmlUrl="" title="[c! ] nikto"/>
     <outline type="rss" xmlUrl="https://seclists.org/rss/nmap-announce.rss" htmlUrl="" title="[r  ] nmap"/>
+    <outline type="rss" xmlUrl="https://github.com/sighook/nmap-extra-nse/commits/master.atom" htmlUrl="" title="[c! ] nmap-extra-nse"/>
     <outline type="rss" xmlUrl="https://github.com/projectdiscovery/nuclei/releases.atom" htmlUrl="" title="[r  ] nuclei-bin"/>
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=nvidia" htmlUrl="" title="[x  ] nvidia/nvidia-nox"/>
     <outline type="rss" xmlUrl="https://github.com/sighook/office2hashcat/commits/master.atom" htmlUrl="" title="[c! ] office2hashcat"/>
