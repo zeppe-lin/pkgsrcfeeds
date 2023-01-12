@@ -347,6 +347,7 @@ https://crux.nu/gitweb/?p=ports/contrib.git;a=atom;f=slock                      
 https://github.com/freedesktop/spice-protocol/releases.atom                                       "~[r  ] spice-protocol" xorg
 https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=spirv-headers                                    "~[x  ] spirv-headers" xorg
 https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=spirv-tools                                      "~[x  ] spirv-tools" xorg
+https://gitlab.freedesktop.org/xorg/app/transset/-/tags?format=atom                               "~[r  ] transset" xorg
 https://crux.nu/gitweb/?p=ports/xorg.git;a=atom;f=xorg-font-bitstream-vera                        "~[r  ] ttf-font-bitstream-vera" xorg
 https://github.com/dejavu-fonts/dejavu-fonts/releases.atom                                        "~[r  ] ttf-font-dejavu" xorg
 https://github.com/IBM/plex/releases.atom                                                         "~[r  ] ttf-font-ibm-plex" xorg
