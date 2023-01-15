@@ -346,6 +346,7 @@
     <outline type="rss" xmlUrl="https://github.com/freedesktop/spice-protocol/releases.atom" htmlUrl="" title="[r  ] spice-protocol"/>
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=spirv-headers" htmlUrl="" title="[x  ] spirv-headers"/>
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=spirv-tools" htmlUrl="" title="[x  ] spirv-tools"/>
+    <outline type="rss" xmlUrl="https://gitlab.freedesktop.org/xorg/app/transset/-/tags?format=atom" htmlUrl="" title="[r  ] transset"/>
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/xorg.git;a=atom;f=xorg-font-bitstream-vera" htmlUrl="" title="[r  ] ttf-font-bitstream-vera"/>
     <outline type="rss" xmlUrl="https://github.com/dejavu-fonts/dejavu-fonts/releases.atom" htmlUrl="" title="[r  ] ttf-font-dejavu"/>
     <outline type="rss" xmlUrl="https://github.com/IBM/plex/releases.atom" htmlUrl="" title="[r  ] ttf-font-ibm-plex"/>
