@@ -1,12 +1,10 @@
 TODO pkgsrcfeeds
 
-    README.md:
-      * add usage section
+	README.md:
+	[ ] Add usage section.
 
-    feeds.urls, feeds.opml:
-      * fix slock url
-      * add linux-wifi-pentest-patches
+	feeds.urls, feeds.opml:
+	[ ] Fix slock url.
+	[ ] Add linux-wifi-pentest-patches.
 
-
-vim:sw=2:ts=2:sts=2:et:cc=72:tw=70
 End of file.
