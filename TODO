@@ -1,10 +1,20 @@
 TODO pkgsrcfeeds
 
-	README.md:
+
+	README.md
+	---------
+
 	[ ] Add usage section.
 
-	feeds.urls, feeds.opml:
-	[ ] Fix slock url.
-	[ ] Add linux-wifi-pentest-patches.
+
+	feeds.urls, feeds.opml
+	----------------------
+
+	[x] Fix slock url.
+	Done: Sun Jan 22 12:30:41 PM EET 2023
+
+	[x] Add linux-wifi-pentest-patches.
+	Done: Sun Jan 15 22:28:03 2023 +0200
+
 
 End of file.
