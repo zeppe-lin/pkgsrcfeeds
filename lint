@@ -28,7 +28,6 @@ my %OBSOLETE_PACKAGE = map { $_ => 1 } qw(
     shared-mime-info
     smtp-user-enum
     tnscmd10g
-    transset-df
     xorg-libxfont
     xorg-xf86-input-keyboard
     );
