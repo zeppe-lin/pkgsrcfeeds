@@ -342,7 +342,7 @@
     <outline type="rss" xmlUrl="https://github.com/sqlalchemy/mako/releases.atom" htmlUrl="" title="[r  ] py3-mako"/>
     <outline type="rss" xmlUrl="https://github.com/pallets/markupsafe/releases.atom" htmlUrl="" title="[r  ] py3-markupsafe"/>
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=qt5" htmlUrl="" title="[x  ] qt5"/>
-    <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/contrib.git;a=atom;f=slock" htmlUrl="" title="[x  ] slock"/>
+    <outline type="rss" xmlUrl="https://github.com/archlinux/svntogit-community/commits/packages/slock/trunk.atom" htmlUrl="" title="[a  ] slock"/>
     <outline type="rss" xmlUrl="https://github.com/freedesktop/spice-protocol/releases.atom" htmlUrl="" title="[r  ] spice-protocol"/>
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=spirv-headers" htmlUrl="" title="[x  ] spirv-headers"/>
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=spirv-tools" htmlUrl="" title="[x  ] spirv-tools"/>
@@ -521,7 +521,7 @@
     <outline type="rss" xmlUrl="https://github.com/zx2c4/password-store/releases.atom" htmlUrl="" title="[r  ] password-store"/>
     <outline type="rss" xmlUrl="https://github.com/freedesktop/poppler/tags.atom" htmlUrl="" title="[r  ] poppler"/>
     <outline type="rss" xmlUrl="https://github.com/qemu/qemu/releases.atom" htmlUrl="" title="[r  ] qemu"/>
-    <outline type="rss" xmlUrl="https://github.com/Gottox/qemuconf/commits/master.atom" htmlUrl="" title="[c  ] qemuconf"/>
+    <outline type="rss" xmlUrl="https://github.com/zeppe-lin/qemuconf/commits/master.atom" htmlUrl="" title="[c! ] qemuconf"/>
     <outline type="rss" xmlUrl="https://github.com/fukuchi/libqrencode/releases.atom" htmlUrl="" title="[r  ] qrencode"/>
     <outline type="rss" xmlUrl="https://sourceforge.net/projects/qt5ct/rss?path=/" htmlUrl="" title="[r  ] qt5ct"/>
     <outline type="rss" xmlUrl="https://github.com/qt/qtstyleplugins/commits/master.atom" htmlUrl="" title="[c  ] qt5-styleplugins"/>
