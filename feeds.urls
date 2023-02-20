@@ -791,6 +791,7 @@ https://github.com/uncrustify/uncrustify/releases.atom                          
 https://github.com/urbanadventurer/urlcrazy/releases.atom                                         "~[r  ] urlcrazy" stuff
 https://github.com/tomnomnom/waybackurls/releases.atom                                            "~[r  ] waybackurls-bin" stuff
 https://github.com/urbanadventurer/WhatWeb/commits/master.atom                                    "~[c! ] whatweb" stuff
+https://github.com/mmtrt/WINE_AppImage/releases.atom                                              "~[r  ] wine*" stuff
 https://github.com/wireshark/wireshark/releases.atom                                              "~[r  ] wireshark" stuff
 https://github.com/wpscanteam/wpscan/commits/master.atom                                          "~[c  ] wpscan" stuff
 https://github.com/wpscanteam/wpscan/releases.atom                                                "~[r  ] wpscan" stuff
