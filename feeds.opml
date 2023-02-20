@@ -786,6 +786,7 @@
     <outline type="rss" xmlUrl="https://github.com/urbanadventurer/urlcrazy/releases.atom" htmlUrl="" title="[r  ] urlcrazy"/>
     <outline type="rss" xmlUrl="https://github.com/tomnomnom/waybackurls/releases.atom" htmlUrl="" title="[r  ] waybackurls-bin"/>
     <outline type="rss" xmlUrl="https://github.com/urbanadventurer/WhatWeb/commits/master.atom" htmlUrl="" title="[c! ] whatweb"/>
+    <outline type="rss" xmlUrl="https://github.com/mmtrt/WINE_AppImage/releases.atom" htmlUrl="" title="[r  ] wine*"/>
     <outline type="rss" xmlUrl="https://github.com/wireshark/wireshark/releases.atom" htmlUrl="" title="[r  ] wireshark"/>
     <outline type="rss" xmlUrl="https://github.com/wpscanteam/wpscan/commits/master.atom" htmlUrl="" title="[c  ] wpscan"/>
     <outline type="rss" xmlUrl="https://github.com/wpscanteam/wpscan/releases.atom" htmlUrl="" title="[r  ] wpscan"/>
