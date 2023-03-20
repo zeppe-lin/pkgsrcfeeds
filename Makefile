@@ -23,8 +23,9 @@ check: check-urls check-missing check-redundant
 
 check-urls:
 	@echo "=======> Check feeds.urls for response code"
-	@grep -Eiho "https?://[^\"\\'> ]+" ${NEWSBOAT_FEEDS} | xargs -P10 -I{} \
-		curl -o /dev/null -sw "[%{http_code}] %{url}\n" '{}'
+	@grep -Eiho "https?://[^\"\\'> ]+" ${NEWSBOAT_FEEDS} \
+		| xargs -P10 -I{} curl -o /dev/null          \
+		  -sw "[%{http_code}] %{url}\n" '{}'
 
 check-missing:
 	@echo "=======> Check feeds.urls for missing feeds"
