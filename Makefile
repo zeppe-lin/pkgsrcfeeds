@@ -13,6 +13,8 @@ TARGETS:
     check-redundant  check for redundant feeds
 
   opml               convert newsboat urls file to opml
+
+  update-cache       commit cache changes
 endef
 
 all: help
@@ -37,6 +39,9 @@ check-redundant:
 
 opml:
 	newsboat -u ${NEWSBOAT_FEEDS} -e > ${OPML}
+
+update-cache:
+	git commit -m "feeds.cache: update $(shell date)" feeds.cache
 
 .PHONY: all help check check-urls check-missing check-redundant opml
 
