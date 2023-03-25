@@ -190,6 +190,7 @@
     <outline type="rss" xmlUrl="https://sourceforge.net/projects/terminus-font/rss?path=/" htmlUrl="" title="[r  ] xorg-font-terminus"/>
     <outline type="rss" xmlUrl="https://salsa.debian.org/debian/cpufrequtils/-/tags?format=atom" htmlUrl="" title="[r  ] cpufrequtils"/>
     <outline type="rss" xmlUrl="https://salsa.debian.org/debian/cpuid/-/tags?format=atom" htmlUrl="" title="[r  ] cpuid"/>
+    <outline type="rss" xmlUrl="https://github.com/zeppe-lin/cryptmount/commits/master.atom" htmlUrl="" title="[c! ] cryptmount"/>
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=cryptsetup" htmlUrl="" title="[x  ] cryptsetup"/>
     <outline type="rss" xmlUrl="https://github.com/cyrusimap/cyrus-sasl/releases.atom" htmlUrl="" title="[r  ] cyrus-sasl"/>
     <outline type="rss" xmlUrl="https://github.com/archlinux/svntogit-packages/commits/packages/dhcp/trunk/PKGBUILD.atom" htmlUrl="" title="[a  ] dhcp"/>

@@ -189,6 +189,7 @@ https://github.com/tianon/cgroupfs-mount/releases.atom                          
 https://sourceforge.net/projects/terminus-font/rss?path=/                                         "~[r  ] console-font-terminus" system
 https://salsa.debian.org/debian/cpufrequtils/-/tags?format=atom                                   "~[r  ] cpufrequtils" system
 https://salsa.debian.org/debian/cpuid/-/tags?format=atom                                          "~[r  ] cpuid" system
+https://github.com/zeppe-lin/cryptmount/commits/master.atom                                       "~[c! ] cryptmount" system
 https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=cryptsetup                                       "~[x  ] cryptsetup" system
 https://github.com/cyrusimap/cyrus-sasl/releases.atom                                             "~[r  ] cyrus-sasl" system
 https://github.com/archlinux/svntogit-packages/commits/packages/dhcp/trunk/PKGBUILD.atom          "~[a  ] dhcp" system
