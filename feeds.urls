@@ -285,7 +285,6 @@ https://github.com/benjaminp/six/releases.atom                                  
 http://git.linux-nfs.org/?p=steved/rpcbind.git;a=atom                                             "~[cr ] rpcbind" system
 https://github.com/thkukuk/rpcsvc-proto/releases.atom                                             "~[r  ] rpcsvc-proto" system
 https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=rsync                                           "~[x  ] rsync" system
-https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=scons                                            "~[x  ] scons" system
 https://github.com/SCons/scons/releases.atom                                                      "~[r  ] scons" system
 https://savannah.gnu.org/news/atom.php?group=screen                                               "~[r  ] screen" system
 https://github.com/archlinux/svntogit-packages/commits/packages/serf/trunk.atom                   "~[a  ] serf" system
