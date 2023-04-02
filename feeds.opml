@@ -225,7 +225,7 @@
     <outline type="rss" xmlUrl="https://github.com/archlinux/svntogit-packages/commits/packages/iw/trunk.atom" htmlUrl="" title="[a  ] iw"/>
     <outline type="rss" xmlUrl="https://git.kernel.org/pub/scm/linux/kernel/git/jberg/iw.git/atom/?h=master" htmlUrl="" title="[cr ] iw"/>
     <outline type="rss" xmlUrl="https://github.com/json-c/json-c/releases.atom" htmlUrl="" title="[r  ] json-c"/>
-    <outline type="rss" xmlUrl="https://git.kernel.org/pub/scm/linux/kernel/git/dhowells/keyutils.git/atom/?h=master" htmlUrl="" title="[c  ] keyutils"/>
+    <outline type="rss" xmlUrl="https://git.kernel.org/pub/scm/linux/kernel/git/dhowells/keyutils.git/atom/?h=master" htmlUrl="" title="[cr ] keyutils"/>
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=lftp" htmlUrl="" title="[x  ] lftp"/>
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=libaio" htmlUrl="" title="[x  ] libaio"/>
     <outline type="rss" xmlUrl="https://github.com/gpg/libassuan/releases.atom" htmlUrl="" title="[x  ] libassuan"/>
@@ -279,14 +279,13 @@
     <outline type="rss" xmlUrl="https://github.com/gpg/pinentry/releases.atom" htmlUrl="" title="[r  ] pinentry/pinentry-gtk2"/>
     <outline type="rss" xmlUrl="https://github.com/zeppe-lin/pkgmaint/commits/master.atom" htmlUrl="" title="[c! ] pkgmaint"/>
     <outline type="rss" xmlUrl="https://github.com/rpm-software-management/popt/releases.atom" htmlUrl="" title="[r  ] popt"/>
-    <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/contrib.git;a=atom;f=postgresql" htmlUrl="" title="[x  ] postgresql"/>
+    <outline type="rss" xmlUrl="https://github.com/postgres/postgres/tags.atom" htmlUrl="" title="[r  ] postgresql"/>
     <outline type="rss" xmlUrl="https://github.com/fenrus75/powertop/releases.atom" htmlUrl="" title="[r  ] powertop"/>
     <outline type="rss" xmlUrl="https://github.com/a-j-wood/pv/releases.atom" htmlUrl="" title="[r  ] pv"/>
     <outline type="rss" xmlUrl="https://github.com/benjaminp/six/releases.atom" htmlUrl="" title="[r  ] py3-six"/>
     <outline type="rss" xmlUrl="http://git.linux-nfs.org/?p=steved/rpcbind.git;a=atom" htmlUrl="" title="[cr ] rpcbind"/>
     <outline type="rss" xmlUrl="https://github.com/thkukuk/rpcsvc-proto/releases.atom" htmlUrl="" title="[r  ] rpcsvc-proto"/>
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=rsync" htmlUrl="" title="[x  ] rsync"/>
-    <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=scons" htmlUrl="" title="[x  ] scons"/>
     <outline type="rss" xmlUrl="https://github.com/SCons/scons/releases.atom" htmlUrl="" title="[r  ] scons"/>
     <outline type="rss" xmlUrl="https://savannah.gnu.org/news/atom.php?group=screen" htmlUrl="" title="[r  ] screen"/>
     <outline type="rss" xmlUrl="https://github.com/archlinux/svntogit-packages/commits/packages/serf/trunk.atom" htmlUrl="" title="[a  ] serf"/>
