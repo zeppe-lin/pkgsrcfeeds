@@ -668,6 +668,8 @@
     <outline type="rss" xmlUrl="https://metacpan.org/dist/File-Listing/releases.rss" htmlUrl="" title="[r  ] p5-file-listing"/>
     <outline type="rss" xmlUrl="https://metacpan.org/dist/File-Slurp-Tiny/releases.rss" htmlUrl="" title="[r  ] p5-file-slurp-tiny"/>
     <outline type="rss" xmlUrl="https://metacpan.org/dist/GD/releases.rss" htmlUrl="" title="[r  ] p5-gd"/>
+    <outline type="rss" xmlUrl="https://metacpan.org/dist/GDGraph/releases.rss" htmlUrl="" title="[r  ] p5-gd-graph"/>
+    <outline type="rss" xmlUrl="https://metacpan.org/dist/GDTextUtil/releases.rss" htmlUrl="" title="[r  ] p5-gd-text"/>
     <outline type="rss" xmlUrl="https://metacpan.org/dist/HTML-Form/releases.rss" htmlUrl="" title="[r  ] p5-html-form"/>
     <outline type="rss" xmlUrl="https://metacpan.org/dist/HTML-Parser/releases.rss" htmlUrl="" title="[r  ] p5-html-parser"/>
     <outline type="rss" xmlUrl="https://metacpan.org/dist/HTML-Tagset/releases.rss" htmlUrl="" title="[r  ] p5-html-tagset"/>
