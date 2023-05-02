@@ -41,7 +41,8 @@ opml:
 	newsboat -u ${NEWSBOAT_FEEDS} -e > ${OPML}
 
 update-cache:
-	git commit -m "feeds.cache: update $(shell date)" feeds.cache
+	git commit -m "feeds.cache: sync w/ pkgsrcs changes ($(shell date))" \
+		feeds.cache
 
 .PHONY: all help check check-urls check-missing check-redundant opml
 
