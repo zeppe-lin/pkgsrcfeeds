@@ -149,6 +149,7 @@
     <outline type="rss" xmlUrl="https://github.com/michaelforney/samurai/releases.atom" htmlUrl="" title="[r  ] samurai"/>
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=sed" htmlUrl="" title="[x  ] sed"/>
     <outline type="rss" xmlUrl="https://git.savannah.nongnu.org/cgit/sed.git/atom" htmlUrl="" title="[cr ] sed"/>
+    <outline type="rss" xmlUrl="https://github.com/zeppe-lin/seedrng/commits.atom" htmlUrl="" title="[c! ] seedrng"/>
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=shadow" htmlUrl="" title="[x  ] shadow"/>
     <outline type="rss" xmlUrl="https://github.com/shadow-maint/shadow/releases.atom" htmlUrl="" title="[r  ] shadow"/>
     <outline type="rss" xmlUrl="https://github.com/mackyle/sqlite/releases.atom" htmlUrl="" title="[r  ] sqlite3"/>
@@ -163,6 +164,7 @@
     <outline type="rss" xmlUrl="https://github.com/slicer69/sysvinit/releases.atom" htmlUrl="" title="[r  ] sysvinit"/>
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=tar" htmlUrl="" title="[x  ] tar"/>
     <outline type="rss" xmlUrl="https://git.savannah.nongnu.org/cgit/tar.git/atom" htmlUrl="" title="[c  ] tar"/>
+    <outline type="rss" xmlUrl="https://sourceforge.net/projects/traceroute/rss?path=/traceroute" htmlUrl="" title="[r  ] traceroute"/>
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=tzdata" htmlUrl="" title="[x  ] tzdata"/>
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=usbutils" htmlUrl="" title="[x  ] usbids"/>
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=usbutils" htmlUrl="" title="[x  ] usbids"/>
@@ -545,6 +547,7 @@
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=unrar" htmlUrl="" title="[x  ] unrar"/>
     <outline type="rss" xmlUrl="https://salsa.debian.org/debian/urlview/-/tags?format=atom" htmlUrl="" title="[d  ] urlview"/>
     <outline type="rss" xmlUrl="https://github.com/vifm/vifm/releases.atom" htmlUrl="" title="[r  ] vifm"/>
+    <outline type="rss" xmlUrl="https://github.com/zlin/wgetpaste/releases.atom" htmlUrl="" title="[r  ] wgetpaste"/>
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/contrib.git;a=atom;f=x264" htmlUrl="" title="[x  ] x264"/>
     <outline type="rss" xmlUrl="https://sourceforge.net/projects/xcdroast/rss?path=/" htmlUrl="" title="[r  ] xcdroast"/>
     <outline type="rss" xmlUrl="https://github.com/ytdl-org/youtube-dl/releases.atom" htmlUrl="" title="[r  ] youtube-dl"/>
@@ -674,6 +677,7 @@
     <outline type="rss" xmlUrl="https://metacpan.org/dist/HTML-Parser/releases.rss" htmlUrl="" title="[r  ] p5-html-parser"/>
     <outline type="rss" xmlUrl="https://metacpan.org/dist/HTML-Tagset/releases.rss" htmlUrl="" title="[r  ] p5-html-tagset"/>
     <outline type="rss" xmlUrl="https://metacpan.org/dist/HTML-Tree/releases.rss" htmlUrl="" title="[r  ] p5-html-tree"/>
+    <outline type="rss" xmlUrl="https://metacpan.org/dist/HTTP-CookieJar/releases.rss" htmlUrl="" title="[r  ] p5-http-cookiejar"/>
     <outline type="rss" xmlUrl="https://metacpan.org/dist/HTTP-Cookies/releases.rss" htmlUrl="" title="[r  ] p5-http-cookies"/>
     <outline type="rss" xmlUrl="https://metacpan.org/dist/HTTP-Daemon/releases.rss" htmlUrl="" title="[r  ] p5-http-daemon"/>
     <outline type="rss" xmlUrl="https://metacpan.org/feed/distribution/HTTP-Date" htmlUrl="" title="[r  ] p5-http-date"/>
