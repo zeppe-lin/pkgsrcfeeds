@@ -27,7 +27,8 @@ check-urls:
 	@echo "=======> Check feeds.urls for response code"
 	@grep -Eiho "https?://[^\"\\'> ]+" ${NEWSBOAT_FEEDS} \
 		| xargs -P10 -I{} curl -o /dev/null          \
-		  -sw "[%{http_code}] %{url}\n" '{}'
+		  -sw "[%{http_code}] %{url}\n" '{}'         \
+		| grep -v '\[200\]'
 
 check-missing:
 	@echo "=======> Check feeds.urls for missing feeds"
