@@ -153,6 +153,7 @@
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=shadow" htmlUrl="" title="[x  ] shadow"/>
     <outline type="rss" xmlUrl="https://github.com/shadow-maint/shadow/releases.atom" htmlUrl="" title="[r  ] shadow"/>
     <outline type="rss" xmlUrl="https://github.com/mackyle/sqlite/releases.atom" htmlUrl="" title="[r  ] sqlite3"/>
+    <outline type="rss" xmlUrl="https://github.com/guillemj/dpkg/commits/main/utils/start-stop-daemon.c.atom" htmlUrl="" title="[c  ] start-stop-daemon"/>
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=tools/start-stop-daemon.git;a=atom" htmlUrl="" title="[cx ] start-stop-daemon"/>
     <outline type="rss" xmlUrl="https://github.com/zeppe-lin/start-stop-daemon/commits.atom" htmlUrl="" title="[c! ] start-stop-daemon"/>
     <outline type="rss" xmlUrl="https://github.com/sudo-project/sudo/releases.atom" htmlUrl="" title="[r  ] sudo"/>
