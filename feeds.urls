@@ -150,6 +150,7 @@ https://github.com/zeppe-lin/seedrng/commits.atom                               
 https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=shadow                                          "~[x  ] shadow" core
 https://github.com/shadow-maint/shadow/releases.atom                                              "~[r  ] shadow" core
 https://github.com/mackyle/sqlite/releases.atom                                                   "~[r  ] sqlite3" core
+https://github.com/guillemj/dpkg/commits/main/utils/start-stop-daemon.c.atom                      "~[c  ] start-stop-daemon" core
 https://crux.nu/gitweb/?p=tools/start-stop-daemon.git;a=atom                                      "~[cx ] start-stop-daemon" core
 https://github.com/zeppe-lin/start-stop-daemon/commits.atom                                       "~[c! ] start-stop-daemon" core
 https://github.com/sudo-project/sudo/releases.atom                                                "~[r  ] sudo" core
