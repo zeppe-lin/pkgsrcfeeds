@@ -10,7 +10,7 @@
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/contrib.git;a=atom;f=asciidoctor" htmlUrl="" title="[x  ] asciidoctor"/>
     <outline type="rss" xmlUrl="https://github.com/asciidoctor/asciidoctor/releases.atom" htmlUrl="" title="[r  ] asciidoctor"/>
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=attr" htmlUrl="" title="[x  ] attr"/>
-    <outline type="rss" xmlUrl="https://git.savannah.nongnu.org/cgit/attr.git/atom" htmlUrl="" title="[c  ] attr"/>
+    <outline type="rss" xmlUrl="https://git.savannah.nongnu.org/cgit/attr.git/atom" htmlUrl="" title="[cr ] attr"/>
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=autoconf" htmlUrl="" title="[x  ] autoconf"/>
     <outline type="rss" xmlUrl="https://git.savannah.nongnu.org/cgit/autoconf.git/atom" htmlUrl="" title="[c  ] autoconf"/>
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=automake" htmlUrl="" title="[x  ] automake"/>
@@ -59,7 +59,7 @@
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=glibc" htmlUrl="" title="[x  ] glibc"/>
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=glibc-32" htmlUrl="" title="[x  ] glibc-32"/>
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=gperf" htmlUrl="" title="[x  ] gperf"/>
-    <outline type="rss" xmlUrl="https://git.savannah.nongnu.org/cgit/gperf.git/atom" htmlUrl="" title="[c  ] gperf"/>
+    <outline type="rss" xmlUrl="https://git.savannah.nongnu.org/cgit/gperf.git/atom" htmlUrl="" title="[cr ] gperf"/>
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=grep" htmlUrl="" title="[x  ] grep"/>
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=groff" htmlUrl="" title="[x  ] groff"/>
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=gzip" htmlUrl="" title="[x  ] gzip"/>
@@ -112,7 +112,7 @@
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=m4" htmlUrl="" title="[x  ] m4"/>
     <outline type="rss" xmlUrl="https://git.savannah.nongnu.org/cgit/m4.git/atom" htmlUrl="" title="[c  ] m4"/>
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=make" htmlUrl="" title="[x  ] make"/>
-    <outline type="rss" xmlUrl="https://git.savannah.nongnu.org/cgit/make.git/atom" htmlUrl="" title="[c  ] make"/>
+    <outline type="rss" xmlUrl="https://git.savannah.nongnu.org/cgit/make.git/atom" htmlUrl="" title="[cr ] make"/>
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=man-db" htmlUrl="" title="[x  ] man-db"/>
     <outline type="rss" xmlUrl="https://git.savannah.nongnu.org/cgit/man-db.git/atom" htmlUrl="" title="[c  ] man-db"/>
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=man-pages" htmlUrl="" title="[x  ] man-pages"/>
