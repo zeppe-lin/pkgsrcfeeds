@@ -447,6 +447,7 @@ https://gitlab.freedesktop.org/xorg/app/xinit/-/tags?format=atom                
 https://gitlab.freedesktop.org/xorg/app/xinput/-/tags?format=atom                                 "~[r  ] xorg-xinput" xorg
 https://gitlab.freedesktop.org/xorg/app/xkbcomp/-/tags?format=atom                                "~[r  ] xorg-xkbcomp" xorg
 https://gitlab.freedesktop.org/xorg/app/xkill/-/tags?format=atom                                  "~[r  ] xorg-xkill" xorg
+https://gitlab.freedesktop.org/xorg/app/xmodmap/-/tags?format=atom                                "~[r  ] xorg-xmodmap" xorg
 https://gitlab.freedesktop.org/xorg/proto/xorgproto/-/tags?format=atom                            "~[r  ] xorg-xorgproto" xorg
 https://gitlab.freedesktop.org/xorg/app/xprop/-/tags?format=atom                                  "~[r  ] xorg-xprop" xorg
 https://gitlab.freedesktop.org/xorg/app/xrandr/-/tags?format=atom                                 "~[r  ] xorg-xrandr" xorg
