@@ -445,6 +445,7 @@
     <outline type="rss" xmlUrl="https://gitlab.freedesktop.org/xorg/app/xinput/-/tags?format=atom" htmlUrl="" title="[r  ] xorg-xinput"/>
     <outline type="rss" xmlUrl="https://gitlab.freedesktop.org/xorg/app/xkbcomp/-/tags?format=atom" htmlUrl="" title="[r  ] xorg-xkbcomp"/>
     <outline type="rss" xmlUrl="https://gitlab.freedesktop.org/xorg/app/xkill/-/tags?format=atom" htmlUrl="" title="[r  ] xorg-xkill"/>
+    <outline type="rss" xmlUrl="https://gitlab.freedesktop.org/xorg/app/xmodmap/-/tags?format=atom" htmlUrl="" title="[r  ] xorg-xmodmap"/>
     <outline type="rss" xmlUrl="https://gitlab.freedesktop.org/xorg/proto/xorgproto/-/tags?format=atom" htmlUrl="" title="[r  ] xorg-xorgproto"/>
     <outline type="rss" xmlUrl="https://gitlab.freedesktop.org/xorg/app/xprop/-/tags?format=atom" htmlUrl="" title="[r  ] xorg-xprop"/>
     <outline type="rss" xmlUrl="https://gitlab.freedesktop.org/xorg/app/xrandr/-/tags?format=atom" htmlUrl="" title="[r  ] xorg-xrandr"/>
