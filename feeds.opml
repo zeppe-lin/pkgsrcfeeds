@@ -329,7 +329,7 @@
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=gtk" htmlUrl="" title="[x  ] gtk"/>
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=gtk3" htmlUrl="" title="[x  ] gtk3"/>
     <outline type="rss" xmlUrl="https://github.com/lah7/gtk3-classic/releases.atom" htmlUrl="" title="[r  ] gtk3-classic"/>
-    <outline type="rss" xmlUrl="http://savannah.gnu.org/news/atom.php?group=gxmessage" htmlUrl="" title="[r  ] gxmessage"/>
+    <outline type="rss" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/gxmessage/-/tags?format=atom" htmlUrl="" title="[r  ] gxmessage"/>
     <outline type="rss" xmlUrl="https://github.com/harfbuzz/harfbuzz/releases.atom" htmlUrl="" title="[r  ] harfbuzz"/>
     <outline type="rss" xmlUrl="https://gitlab.freedesktop.org/xdg/default-icon-theme/-/tags?format=atom" htmlUrl="" title="[r  ] hicolor-icon-theme"/>
     <outline type="rss" xmlUrl="https://gitlab.freedesktop.org/mesa/drm/-/tags?format=atom" htmlUrl="" title="[r  ] libdrm"/>
@@ -553,6 +553,7 @@
     <outline type="rss" xmlUrl="https://github.com/qt/qtstyleplugins/releases.atom" htmlUrl="" title="[r  ] qt5-styleplugins"/>
     <outline type="rss" xmlUrl="https://git.savannah.nongnu.org/cgit/ratpoison.git/atom" htmlUrl="" title="[c! ] ratpoison"/>
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/contrib.git;a=atom;f=sbc" htmlUrl="" title="[x  ] sbc"/>
+    <outline type="rss" xmlUrl="https://github.com/resurrecting-open-source-projects/scrot/releases.atom" htmlUrl="" title="[r  ] scrot"/>
     <outline type="rss" xmlUrl="https://tracker.debian.org/pkg/ssvnc/rss" htmlUrl="" title="[d  ] ssvnc"/>
     <outline type="rss" xmlUrl="https://github.com/zeppe-lin/st/commits/master.atom" htmlUrl="" title="[c! ] st"/>
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=stfl" htmlUrl="" title="[x  ] stfl"/>
@@ -589,6 +590,7 @@
     <outline type="rss" xmlUrl="https://github.com/obfusk/apksigcopier/commits/master.atom" htmlUrl="" title="[c! ] apksigcopier"/>
     <outline type="rss" xmlUrl="https://github.com/iBotPeaches/Apktool/commits/master.atom" htmlUrl="" title="[c  ] apktool-bin"/>
     <outline type="rss" xmlUrl="https://github.com/iBotPeaches/Apktool/releases.atom" htmlUrl="" title="[r  ] apktool-bin"/>
+    <outline type="rss" xmlUrl="https://github.com/freebsd/freebsd-ports/commits/main/net/arpoison.atom" htmlUrl="" title="[b  ] arpoison"/>
     <outline type="rss" xmlUrl="https://github.com/royhills/arp-scan/commits/master.atom" htmlUrl="" title="[c  ] arp-scan"/>
     <outline type="rss" xmlUrl="https://github.com/royhills/arp-scan/releases.atom" htmlUrl="" title="[r  ] arp-scan"/>
     <outline type="rss" xmlUrl="https://github.com/byt3bl33d3r/arpspoof/commits/master.atom" htmlUrl="" title="[c  ] arpspoof"/>
@@ -599,6 +601,7 @@
     <outline type="rss" xmlUrl="https://github.com/kdave/btrfs-progs/releases.atom" htmlUrl="" title="[r  ] btrfs-progs"/>
     <outline type="rss" xmlUrl="https://github.com/aanarchyy/bully/commits/master.atom" htmlUrl="" title="[c! ] bully"/>
     <outline type="rss" xmlUrl="https://github.com/aanarchyy/bully/releases.atom" htmlUrl="" title="[r  ] bully"/>
+    <outline type="rss" xmlUrl="https://github.com/kyz/libmspack/releases.atom" htmlUrl="" title="[r  ] cabextract"/>
     <outline type="rss" xmlUrl="https://github.com/sighook/captal/commits/master.atom" htmlUrl="" title="[c  ] captal"/>
     <outline type="rss" xmlUrl="https://github.com/sighook/captal/releases.atom" htmlUrl="" title="[r  ] captal"/>
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=c-ares" htmlUrl="" title="[x  ] c-ares"/>
@@ -618,6 +621,7 @@
     <outline type="rss" xmlUrl="https://github.com/archlinux/svntogit-community/commits/packages/dsniff/trunk.atom" htmlUrl="" title="[a  ] dsniff"/>
     <outline type="rss" xmlUrl="https://github.com/stamparm/DSSS/commits/master.atom" htmlUrl="" title="[c! ] dsss"/>
     <outline type="rss" xmlUrl="https://github.com/libexif/exif/releases.atom" htmlUrl="" title="[r  ] exif"/>
+    <outline type="rss" xmlUrl="https://salsa.debian.org/pkg-security-team/extundelete/-/tags?format=atom" htmlUrl="" title="[d  ] extundelete"/>
     <outline type="rss" xmlUrl="https://github.com/ffuf/ffuf/releases.atom" htmlUrl="" title="[r  ] ffuf-bin"/>
     <outline type="rss" xmlUrl="https://github.com/sighook/fierce-domain-scanner/commits/master.atom" htmlUrl="" title="[c! ] fierce"/>
     <outline type="rss" xmlUrl="https://github.com/Findomain/Findomain/releases.atom" htmlUrl="" title="[r  ] findomain-bin"/>
@@ -628,9 +632,16 @@
     <outline type="rss" xmlUrl="https://github.com/sighook/gencc/commits/master.atom" htmlUrl="" title="[c  ] gencc"/>
     <outline type="rss" xmlUrl="https://github.com/sighook/gencc/releases.atom" htmlUrl="" title="[r  ] gencc"/>
     <outline type="rss" xmlUrl="https://github.com/NationalSecurityAgency/ghidra/releases.atom" htmlUrl="" title="[r  ] ghidra-bin"/>
+    <outline type="rss" xmlUrl="https://github.com/aferrero2707/gimp-appimage/releases.atom" htmlUrl="" title="[r  ] gimp-appimage"/>
     <outline type="rss" xmlUrl="https://github.com/gitleaks/gitleaks/releases.atom" htmlUrl="" title="[r  ] gitleaks-bin"/>
     <outline type="rss" xmlUrl="https://github.com/OJ/gobuster/releases.atom" htmlUrl="" title="[r  ] gobuster-bin"/>
+    <outline type="rss" xmlUrl="https://github.com/Abs62/goldendict/releases.atom" htmlUrl="" title="[r  ] goldendict-appimage"/>
+    <outline type="rss" xmlUrl="https://github.com/gperftools/gperftools/releases.atom" htmlUrl="" title="[r  ] gperftools"/>
+    <outline type="rss" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/graphviz/-/tags?format=atom" htmlUrl="" title="[r  ] graphviz"/>
+    <outline type="rss" xmlUrl="https://github.com/freebsd/freebsd-ports/commits/main/net/gspoof.atom" htmlUrl="" title="[b  ] gspoof"/>
     <outline type="rss" xmlUrl="https://sourceforge.net/projects/gspoof/rss?path=/" htmlUrl="" title="[r  ] gspoof"/>
+    <outline type="rss" xmlUrl="https://github.com/freebsd/freebsd-ports/commits/main/net-p2p/gtorrentviewer.atom" htmlUrl="" title="[b  ] gtorrentviewer"/>
+    <outline type="rss" xmlUrl="https://github.com/khast3x/h8mail/commits/master.atom" htmlUrl="" title="[r  ] h8mail"/>
     <outline type="rss" xmlUrl="https://github.com/hashcat/hashcat/commits/master.atom" htmlUrl="" title="[c  ] hashcat"/>
     <outline type="rss" xmlUrl="https://github.com/hashcat/hashcat/releases.atom" htmlUrl="" title="[r  ] hashcat"/>
     <outline type="rss" xmlUrl="https://github.com/hashcat/hashcat-utils/commits/master.atom" htmlUrl="" title="[c  ] hashcat-utils"/>
@@ -646,6 +657,8 @@
     <outline type="rss" xmlUrl="https://github.com/tomnomnom/httprobe/releases.atom" htmlUrl="" title="[r  ] httprobe-bin"/>
     <outline type="rss" xmlUrl="https://github.com/projectdiscovery/httpx/releases.atom" htmlUrl="" title="[r  ] httpx-bin"/>
     <outline type="rss" xmlUrl="https://github.com/archlinux/svntogit-community/commits/packages/httrack/trunk.atom" htmlUrl="" title="[r  ] httrack"/>
+    <outline type="rss" xmlUrl="https://github.com/hunspell/hunspell/releases.atom" htmlUrl="" title="[r  ] hunspell"/>
+    <outline type="rss" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/hunspell-en/-/tags?format=atom" htmlUrl="" title="[a  ] hunspell-en-us"/>
     <outline type="rss" xmlUrl="https://github.com/open-mpi/hwloc/releases.atom" htmlUrl="" title="[r  ] hwloc"/>
     <outline type="rss" xmlUrl="https://github.com/sighook/ipobfs/commits/master.atom" htmlUrl="" title="[c  ] ipobfs"/>
     <outline type="rss" xmlUrl="https://github.com/sighook/ipobfs/releases.atom" htmlUrl="" title="[r  ] ipobfs"/>
@@ -676,6 +689,7 @@
     <outline type="rss" xmlUrl="https://github.com/lxde/lxrandr/tags.atom" htmlUrl="" title="[r  ] lxrandr"/>
     <outline type="rss" xmlUrl="https://github.com/alobbs/macchanger/commits/master.atom" htmlUrl="" title="[c  ] macchanger"/>
     <outline type="rss" xmlUrl="https://github.com/alobbs/macchanger/releases.atom" htmlUrl="" title="[r  ] macchanger"/>
+    <outline type="rss" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/mandoc/-/tags?format=atom" htmlUrl="" title="[a  ] mandoc"/>
     <outline type="rss" xmlUrl="https://github.com/robertdavidgraham/masscan/commits/master.atom" htmlUrl="" title="[c! ] masscan"/>
     <outline type="rss" xmlUrl="https://github.com/robertdavidgraham/masscan/releases.atom" htmlUrl="" title="[r  ] masscan"/>
     <outline type="rss" xmlUrl="https://github.com/blechschmidt/massdns/commits/master.atom" htmlUrl="" title="[c! ] massdns"/>
@@ -710,9 +724,12 @@
     <outline type="rss" xmlUrl="https://metacpan.org/dist/File-LibMagic/releases.rss" htmlUrl="" title="[r  ] p5-file-libmagic"/>
     <outline type="rss" xmlUrl="https://metacpan.org/dist/File-Listing/releases.rss" htmlUrl="" title="[r  ] p5-file-listing"/>
     <outline type="rss" xmlUrl="https://metacpan.org/dist/File-Slurp-Tiny/releases.rss" htmlUrl="" title="[r  ] p5-file-slurp-tiny"/>
+    <outline type="rss" xmlUrl="https://metacpan.org/dist/File-Type/releases.rss" htmlUrl="" title="[r  ] p5-file-type"/>
+    <outline type="rss" xmlUrl="https://metacpan.org/dist/Font-TTF/releases.rss" htmlUrl="" title="[r  ] p5-font-ttf"/>
     <outline type="rss" xmlUrl="https://metacpan.org/dist/GD/releases.rss" htmlUrl="" title="[r  ] p5-gd"/>
     <outline type="rss" xmlUrl="https://metacpan.org/dist/GDGraph/releases.rss" htmlUrl="" title="[r  ] p5-gd-graph"/>
     <outline type="rss" xmlUrl="https://metacpan.org/dist/GDTextUtil/releases.rss" htmlUrl="" title="[r  ] p5-gd-text"/>
+    <outline type="rss" xmlUrl="https://metacpan.org/dist/Getopt-ArgvFile/releases.rss" htmlUrl="" title="[r  ] p5-getopt-argvfile"/>
     <outline type="rss" xmlUrl="https://metacpan.org/dist/HTML-Form/releases.rss" htmlUrl="" title="[r  ] p5-html-form"/>
     <outline type="rss" xmlUrl="https://metacpan.org/dist/HTML-Parser/releases.rss" htmlUrl="" title="[r  ] p5-html-parser"/>
     <outline type="rss" xmlUrl="https://metacpan.org/dist/HTML-Tagset/releases.rss" htmlUrl="" title="[r  ] p5-html-tagset"/>
@@ -726,6 +743,7 @@
     <outline type="rss" xmlUrl="https://metacpan.org/dist/HTTP-Response-Encoding/releases.rss" htmlUrl="" title="[r  ] p5-http-response-encoding"/>
     <outline type="rss" xmlUrl="https://metacpan.org/dist/HTTP-Server-Simple/releases.rss" htmlUrl="" title="[r  ] p5-http-server-simple"/>
     <outline type="rss" xmlUrl="https://metacpan.org/feed/distribution/Image-ExifTool" htmlUrl="" title="[r  ] p5-image-exiftool"/>
+    <outline type="rss" xmlUrl="https://metacpan.org/dist/Image-Size/releases.rss" htmlUrl="" title="[r  ] p5-image-size"/>
     <outline type="rss" xmlUrl="https://metacpan.org/dist/inc-latest/releases.rss" htmlUrl="" title="[r  ] p5-inc-latest"/>
     <outline type="rss" xmlUrl="https://metacpan.org/feed/distribution/IO-HTML" htmlUrl="" title="[r  ] p5-io-html"/>
     <outline type="rss" xmlUrl="https://metacpan.org/feed/distribution/IO-Socket-INET6" htmlUrl="" title="[r  ] p5-io-socket-inet6"/>
@@ -743,6 +761,8 @@
     <outline type="rss" xmlUrl="https://metacpan.org/feed/distribution/Net-SSLeay" htmlUrl="" title="[r  ] p5-net-ssleay"/>
     <outline type="rss" xmlUrl="https://metacpan.org/dist/PadWalker/releases.rss" htmlUrl="" title="[r  ] p5-padwalker"/>
     <outline type="rss" xmlUrl="https://metacpan.org/dist/Path-Tiny/releases.rss" htmlUrl="" title="[r  ] p5-path-tiny"/>
+    <outline type="rss" xmlUrl="https://metacpan.org/dist/PDF-API2/releases.rss" htmlUrl="" title="[r  ] p5-pdf-api2"/>
+    <outline type="rss" xmlUrl="https://metacpan.org/dist/Pod-Parser/releases.rss" htmlUrl="" title="[r  ] p5-pod-parser"/>
     <outline type="rss" xmlUrl="https://metacpan.org/feed/distribution/Regexp-Common" htmlUrl="" title="[r  ] p5-regexp-common"/>
     <outline type="rss" xmlUrl="https://metacpan.org/feed/distribution/Socket6" htmlUrl="" title="[r  ] p5-socket6"/>
     <outline type="rss" xmlUrl="https://metacpan.org/feed/distribution/String-CRC32" htmlUrl="" title="[r  ] p5-string-crc32"/>
@@ -777,6 +797,7 @@
     <outline type="rss" xmlUrl="https://github.com/gw0/PadBuster/commits/master.atom" htmlUrl="" title="[c  ] padbuster"/>
     <outline type="rss" xmlUrl="https://github.com/vapier/pcalc/releases.atom" htmlUrl="" title="[r  ] pcalc"/>
     <outline type="rss" xmlUrl="https://github.com/sighook/pdf2hashcat/commits/master.atom" htmlUrl="" title="[c! ] pdf2hashcat"/>
+    <outline type="rss" xmlUrl="https://github.com/rmyorston/pdpmake/tags.atom" htmlUrl="" title="[r  ] pdpmake"/>
     <outline type="rss" xmlUrl="https://github.com/sundowndev/phoneinfoga/releases.atom" htmlUrl="" title="[r  ] phoneinfoga-bin"/>
     <outline type="rss" xmlUrl="https://github.com/php/php-src/releases.atom" htmlUrl="" title="[r  ] php-fcgi/php-gd"/>
     <outline type="rss" xmlUrl="https://github.com/wiire-a/pixiewps/commits/master.atom" htmlUrl="" title="[c  ] pixiewps"/>
@@ -784,6 +805,8 @@
     <outline type="rss" xmlUrl="https://github.com/sighook/pixload/commits/master.atom" htmlUrl="" title="[c  ] pixload"/>
     <outline type="rss" xmlUrl="https://github.com/sighook/pixload/releases.atom" htmlUrl="" title="[r  ] pixload"/>
     <outline type="rss" xmlUrl="https://github.com/lvc/pkgdiff/tags.atom" htmlUrl="" title="[r  ] pkgdiff-lvc"/>
+    <outline type="rss" xmlUrl="https://github.com/freebsd/freebsd-ports/commits/main/textproc/pod2mdoc.atom" htmlUrl="" title="[b  ] pod2mdoc"/>
+    <outline type="rss" xmlUrl="https://metacpan.org/dist/pod2pdf/releases.rss" htmlUrl="" title="[r  ] pod2pdf"/>
     <outline type="rss" xmlUrl="https://github.com/jech/polipo/commits/master.atom" htmlUrl="" title="[c  ] polipo"/>
     <outline type="rss" xmlUrl="https://github.com/rofl0r/proxychains-ng/commits/master.atom" htmlUrl="" title="[cr ] proxychains-ng"/>
     <outline type="rss" xmlUrl="https://github.com/rofl0r/proxychains-ng/releases.atom" htmlUrl="" title="[r  ] proxychains-ng"/>
@@ -818,6 +841,7 @@
     <outline type="rss" xmlUrl="https://github.com/sleuthkit/sleuthkit/releases.atom" htmlUrl="" title="[r  ] sleuthkit"/>
     <outline type="rss" xmlUrl="https://github.com/smplayer-dev/smplayer/releases.atom" htmlUrl="" title="[r  ] smplayer"/>
     <outline type="rss" xmlUrl="https://github.com/iojw/socialscan/commits/master.atom" htmlUrl="" title="[c! ] socialscan"/>
+    <outline type="rss" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/splint/-/tags?format=atom" htmlUrl="" title="[a  ] splint"/>
     <outline type="rss" xmlUrl="https://github.com/sighook/spoofcheck/commits/master.atom" htmlUrl="" title="[c  ] spoofcheck"/>
     <outline type="rss" xmlUrl="https://github.com/sighook/spoofcheck/releases.atom" htmlUrl="" title="[r  ] spoofcheck"/>
     <outline type="rss" xmlUrl="https://github.com/sqlitebrowser/sqlitebrowser/releases.atom" htmlUrl="" title="[r  ] sqlitebrowser"/>
@@ -843,6 +867,7 @@
     <outline type="rss" xmlUrl="https://github.com/urbanadventurer/WhatWeb/commits/master.atom" htmlUrl="" title="[c! ] whatweb"/>
     <outline type="rss" xmlUrl="https://github.com/mmtrt/WINE_AppImage/releases.atom" htmlUrl="" title="[r  ] wine-4.0.x-i386-appimage"/>
     <outline type="rss" xmlUrl="https://github.com/wireshark/wireshark/releases.atom" htmlUrl="" title="[r  ] wireshark"/>
+    <outline type="rss" xmlUrl="https://github.com/saravanabalagi/wmctrl/commits/master.atom" htmlUrl="" title="[c! ] wmctrl"/>
     <outline type="rss" xmlUrl="https://github.com/wpscanteam/wpscan/commits/master.atom" htmlUrl="" title="[c  ] wpscan"/>
     <outline type="rss" xmlUrl="https://github.com/wpscanteam/wpscan/releases.atom" htmlUrl="" title="[r  ] wpscan"/>
     <outline type="rss" xmlUrl="https://github.com/Cyan4973/xxHash/commits/dev.atom" htmlUrl="" title="[c  ] xxhash"/>
