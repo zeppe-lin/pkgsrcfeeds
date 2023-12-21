@@ -543,6 +543,8 @@ https://metacpan.org/dist/Gtk2/releases.rss                                     
 https://metacpan.org/dist/Net-DBus/releases.rss                                                   "~[r  ] p5-net-dbus" desktop
 https://metacpan.org/dist/Pango/releases.rss                                                      "~[r  ] p5-pango" desktop
 https://metacpan.org/dist/XML-Twig/releases.rss                                                   "~[r  ] p5-xml-twig" desktop
+https://repo.palemoon.org/MoonchildProductions/UXP/tags.rss                                       "~[r  ] palemoon (upx)" desktop
+https://repo.palemoon.org/MoonchildProductions/Pale-Moon/tags.rss                                 "~[r  ] palemoon" desktop
 https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/releases.atom                        "~[r  ] papirus-icon-theme" desktop
 https://github.com/zx2c4/password-store/commits/master.atom                                       "~[c  ] password-store" desktop
 https://github.com/zx2c4/password-store/releases.atom                                             "~[r  ] password-store" desktop

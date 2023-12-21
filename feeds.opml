@@ -539,6 +539,8 @@
     <outline type="rss" xmlUrl="https://metacpan.org/dist/Net-DBus/releases.rss" htmlUrl="" title="[r  ] p5-net-dbus"/>
     <outline type="rss" xmlUrl="https://metacpan.org/dist/Pango/releases.rss" htmlUrl="" title="[r  ] p5-pango"/>
     <outline type="rss" xmlUrl="https://metacpan.org/dist/XML-Twig/releases.rss" htmlUrl="" title="[r  ] p5-xml-twig"/>
+    <outline type="rss" xmlUrl="https://repo.palemoon.org/MoonchildProductions/UXP/tags.rss" htmlUrl="" title="[r  ] palemoon (upx)"/>
+    <outline type="rss" xmlUrl="https://repo.palemoon.org/MoonchildProductions/Pale-Moon/tags.rss" htmlUrl="" title="[r  ] palemoon"/>
     <outline type="rss" xmlUrl="https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/releases.atom" htmlUrl="" title="[r  ] papirus-icon-theme"/>
     <outline type="rss" xmlUrl="https://github.com/zx2c4/password-store/commits/master.atom" htmlUrl="" title="[c  ] password-store"/>
     <outline type="rss" xmlUrl="https://github.com/zx2c4/password-store/releases.atom" htmlUrl="" title="[r  ] password-store"/>
