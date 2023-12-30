@@ -5,7 +5,7 @@
   </head>
   <body>
     <outline type="rss" xmlUrl="--------=========[.:..:..:..CORE..:..:..:.]=========--------" htmlUrl="" title=""/>
-    <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=acl" htmlUrl="" title="[x  ] apr"/>
+    <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=acl" htmlUrl="" title="[x  ] acl"/>
     <outline type="rss" xmlUrl="https://git.savannah.nongnu.org/cgit/acl.git/atom" htmlUrl="" title="[cr ] acl"/>
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/contrib.git;a=atom;f=asciidoctor" htmlUrl="" title="[x  ] asciidoctor"/>
     <outline type="rss" xmlUrl="https://github.com/asciidoctor/asciidoctor/releases.atom" htmlUrl="" title="[r  ] asciidoctor"/>
@@ -184,7 +184,7 @@
     <outline type="rss" xmlUrl="https://github.com/alsa-project/alsa-lib/releases.atom" htmlUrl="" title="[r  ] alsa-lib"/>
     <outline type="rss" xmlUrl="https://github.com/alsa-project/alsa-ucm-conf/tags.atom" htmlUrl="" title="[r  ] alsa-ucm-conf"/>
     <outline type="rss" xmlUrl="https://github.com/alsa-project/alsa-utils/releases.atom" htmlUrl="" title="[r  ] alsa-utils"/>
-    <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=acl" htmlUrl="" title="[x  ] apr"/>
+    <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=apr" htmlUrl="" title="[x  ] apr"/>
     <outline type="rss" xmlUrl="https://github.com/autoconf-archive/autoconf-archive/tags.atom" htmlUrl="" title="[r  ] autoconf-archive"/>
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=bindutils" htmlUrl="" title="[x  ] bindutils"/>
     <outline type="rss" xmlUrl="https://git.kernel.org/pub/scm/network/bridge/bridge-utils.git/atom/?h=main" htmlUrl="" title="[cr ] bridge-utils"/>
@@ -560,7 +560,7 @@
     <outline type="rss" xmlUrl="https://github.com/zeppe-lin/st/commits/master.atom" htmlUrl="" title="[c! ] st"/>
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=stfl" htmlUrl="" title="[x  ] stfl"/>
     <outline type="rss" xmlUrl="https://github.com/mtrojnar/stunnel/releases.atom" htmlUrl="" title="[r  ] stunnel"/>
-    <outline type="rss" xmlUrl="https://github.com/muennich/sxiv/tags.atom" htmlUrl="" title="[r  ] sxiv"/>
+    <outline type="rss" xmlUrl="https://github.com/nsxiv/nsxiv/tags.atom" htmlUrl="" title="[r  ] sxiv"/>
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=sylpheed" htmlUrl="" title="[x  ] sylpheed"/>
     <outline type="rss" xmlUrl="https://github.com/taglib/taglib/releases.atom" htmlUrl="" title="[r  ] taglib"/>
     <outline type="rss" xmlUrl="https://github.com/kaworu/tagutil/releases.atom" htmlUrl="" title="[r  ] tagutil"/>
