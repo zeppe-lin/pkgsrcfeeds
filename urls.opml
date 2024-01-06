@@ -567,6 +567,7 @@
     <outline text="ratpoison (git:commits:releases)" xmlUrl="https://git.savannah.nongnu.org/cgit/ratpoison.git/atom" category="pkgsrc-desktop"/>
     <outline text="sbc (crux:contrib)" xmlUrl="https://crux.nu/gitweb/?p=ports/contrib.git;a=atom;f=sbc" category="pkgsrc-desktop"/>
     <outline text="scrot (github:releases)" xmlUrl="https://github.com/resurrecting-open-source-projects/scrot/releases.atom" category="pkgsrc-desktop"/>
+    <outline text="snownews (sf:releases)" xmlUrl="https://sourceforge.net/projects/snownews/rss?path=/" category="pkgsrc-desktop"/>
     <outline text="ssvnc (debian:tracker)" xmlUrl="https://tracker.debian.org/pkg/ssvnc/rss" category="pkgsrc-desktop"/>
     <outline text="st (github:commits:releases)" xmlUrl="https://github.com/zeppe-lin/st/commits/master.atom" category="pkgsrc-desktop"/>
     <outline text="stfl (crux:opt)" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=stfl" category="pkgsrc-desktop"/>
