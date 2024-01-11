@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-# Check feeds for duplicate urls.
+# Check newsboat.urls file for duplicate urls.
 
 use strict;
 use warnings;
@@ -8,7 +8,7 @@ use autodie;
 
 my %seen = ();
 
-open my $fh, '<', 'feeds.urls';
+open my $fh, '<', 'newsboat.urls';
 while (<$fh>) {
     next unless /^https?:\/\//;
 
