@@ -209,8 +209,8 @@
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=glib" htmlUrl="" title="~[x  ] glib" category="system"/>
     <outline type="rss" xmlUrl="https://gitlab.gnome.org/GNOME/glib/-/tags?format=atom" htmlUrl="" title="~[r  ] glib" category="system"/>
     <outline type="rss" xmlUrl="https://github.com/gpg/gnupg/releases.atom" htmlUrl="" title="~[r  ] gnupg" category="system"/>
-    <outline type="rss" xmlUrl="https://github.com/gnutls/gnutls/tags.atom" htmlUrl="" title="~[r  ] gnutls" category="system"/>
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=gnutls" htmlUrl="" title="~[x  ] gnutls" category="system"/>
+    <outline type="rss" xmlUrl="https://github.com/gnutls/gnutls/tags.atom" htmlUrl="" title="~[r  ] gnutls" category="system"/>
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=grub2" htmlUrl="" title="~[x  ] grub2" category="system"/>
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=grub2-efi" htmlUrl="" title="~[x  ] grub2-efi" category="system"/>
     <outline type="rss" xmlUrl="https://github.com/zeppe-lin/handbook/commits/master.atom" htmlUrl="" title="~[c! ] handbook" category="system"/>

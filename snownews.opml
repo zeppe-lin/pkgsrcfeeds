@@ -209,8 +209,8 @@
     <outline text="~[x  ] glib" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=glib" category="system"/>
     <outline text="~[r  ] glib" xmlUrl="https://gitlab.gnome.org/GNOME/glib/-/tags?format=atom" category="system"/>
     <outline text="~[r  ] gnupg" xmlUrl="https://github.com/gpg/gnupg/releases.atom" category="system"/>
-    <outline text="~[r  ] gnutls" xmlUrl="https://github.com/gnutls/gnutls/tags.atom" category="system"/>
     <outline text="~[x  ] gnutls" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=gnutls" category="system"/>
+    <outline text="~[r  ] gnutls" xmlUrl="https://github.com/gnutls/gnutls/tags.atom" category="system"/>
     <outline text="~[x  ] grub2" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=grub2" category="system"/>
     <outline text="~[x  ] grub2-efi" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=grub2-efi" category="system"/>
     <outline text="~[c! ] handbook" xmlUrl="https://github.com/zeppe-lin/handbook/commits/master.atom" category="system"/>
