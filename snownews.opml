@@ -68,6 +68,7 @@
     <outline text="~[x  ] inetutils" xmlUrl="https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=inetutils" category="core"/>
     <outline text="~[cr ] inetutils" xmlUrl="https://git.savannah.nongnu.org/cgit/inetutils.git/atom" category="core"/>
     <outline text="~[x  ] intltool" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=intltool" category="core"/>
+    <outline text="~[r  ] iproute2" xmlUrl="https://github.com/iproute2/iproute2/tags.atom" category="core"/>
     <outline text="~[x  ] iproute2" xmlUrl="https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=iproute2" category="core"/>
     <outline text="~[x  ] iptables" xmlUrl="https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=iptables" category="core"/>
     <outline text="~[c  ] iptables" xmlUrl="https://git.netfilter.org/iptables/atom" category="core"/>
@@ -180,6 +181,7 @@
     <outline text="~[r  ] alsa-ucm-conf" xmlUrl="https://github.com/alsa-project/alsa-ucm-conf/tags.atom" category="system"/>
     <outline text="~[r  ] alsa-utils" xmlUrl="https://github.com/alsa-project/alsa-utils/releases.atom" category="system"/>
     <outline text="~[x  ] apr" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=apr" category="system"/>
+    <outline text="~[x  ] apr-util" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=apr-util" category="system"/>
     <outline text="~[r  ] autoconf-archive" xmlUrl="https://github.com/autoconf-archive/autoconf-archive/tags.atom" category="system"/>
     <outline text="~[x  ] bindutils" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=bindutils" category="system"/>
     <outline text="~[cr ] bridge-utils" xmlUrl="https://git.kernel.org/pub/scm/network/bridge/bridge-utils.git/atom/?h=main" category="system"/>

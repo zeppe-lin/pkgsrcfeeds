@@ -68,6 +68,7 @@
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=inetutils" htmlUrl="" title="~[x  ] inetutils" category="core"/>
     <outline type="rss" xmlUrl="https://git.savannah.nongnu.org/cgit/inetutils.git/atom" htmlUrl="" title="~[cr ] inetutils" category="core"/>
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=intltool" htmlUrl="" title="~[x  ] intltool" category="core"/>
+    <outline type="rss" xmlUrl="https://github.com/iproute2/iproute2/tags.atom" htmlUrl="" title="~[r  ] iproute2" category="core"/>
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=iproute2" htmlUrl="" title="~[x  ] iproute2" category="core"/>
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=iptables" htmlUrl="" title="~[x  ] iptables" category="core"/>
     <outline type="rss" xmlUrl="https://git.netfilter.org/iptables/atom" htmlUrl="" title="~[c  ] iptables" category="core"/>
@@ -180,6 +181,7 @@
     <outline type="rss" xmlUrl="https://github.com/alsa-project/alsa-ucm-conf/tags.atom" htmlUrl="" title="~[r  ] alsa-ucm-conf" category="system"/>
     <outline type="rss" xmlUrl="https://github.com/alsa-project/alsa-utils/releases.atom" htmlUrl="" title="~[r  ] alsa-utils" category="system"/>
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=apr" htmlUrl="" title="~[x  ] apr" category="system"/>
+    <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=apr-util" htmlUrl="" title="~[x  ] apr-util" category="system"/>
     <outline type="rss" xmlUrl="https://github.com/autoconf-archive/autoconf-archive/tags.atom" htmlUrl="" title="~[r  ] autoconf-archive" category="system"/>
     <outline type="rss" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=bindutils" htmlUrl="" title="~[x  ] bindutils" category="system"/>
     <outline type="rss" xmlUrl="https://git.kernel.org/pub/scm/network/bridge/bridge-utils.git/atom/?h=main" htmlUrl="" title="~[cr ] bridge-utils" category="system"/>
