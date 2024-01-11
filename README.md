@@ -10,8 +10,7 @@ updates.
 USAGE
 -----
 
-Just copy `urls.opml` file to `~/.config/snownews/` directory, or
-make a symbolic link.
+- Import `urls.opml` file into your RSS/Atom reader.
 
 - `lint.pl` performs various checks for `urls.opml` file.
   See `lint.pl --help` for more information.
