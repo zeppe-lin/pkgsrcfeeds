@@ -1,5 +1,5 @@
 #!/bin/sh
-# Check urls.opml for dead links.
+# Check newsboat.urls file for dead links.
 
 grep -Eiho "https?://[^\"\\'> ]+" newsboat.urls | xargs -r -P10 -I{} \
 	curl -I -o /dev/null -sw "[%{http_code}] %{url}\n" '{}'  |
