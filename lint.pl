@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-# Various checks for snownews' urls.opml file.
+# Various checks for newsboat.urls file.
 
 use strict;
 use warnings;
@@ -48,22 +48,14 @@ my %repo     = map { chomp; $_ => 1 } qx(pkgman printf "%n\n");
 
 ######################################################################
 
-# pattern: <outline text=".*" xmlUrl=".*" category=".*"/>
 sub load_feeds {
-    open my $fh, 'urls.opml';
+    open my $fh, 'newsboat.urls';
     while (<$fh>) {
-        next unless m{
-            \s*
-            <outline\s+
-              text="(?<title>.*?)\s*\(.*\)"\s+
-              xmlUrl=".*"\s+
-              category="pkgsrc-(?:core|system|xorg|desktop|stuff)"/>
-        }xsm;
+        next unless /^(?:.*?)\s+"~\[.*?\]\s+(?<title>.*?)"(?:\s+(?:.*?)\s+)?$/;
 
-        for my $pkg (split /,(?:\s+)?/, $+{title}) {
+        for my $pkg (split /\/\s*/, $+{title}) {
             $feed{ $pkg }++;
         }
-        #$feed{ $_ }++ for (split /,\s+?/, $+{title});
     }
     close $fh;
 }
