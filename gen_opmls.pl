@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-# Generate opml files for newsboat and snownews.
+# Generate opml files for newsboat and snownews from newsboat.urls.
 
 use strict;
 use warnings;
