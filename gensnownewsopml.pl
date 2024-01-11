@@ -1,13 +1,25 @@
 #!/usr/bin/env perl
-# Generate snownews.opml file from newsboat.urls.
+# Generate opml files for newsboat and snownews.
 
 use strict;
 use warnings;
 use diagnostics;
 use autodie;
 
-open my $fh1, '>', 'snownews.opml';
-print $fh1 <<EOF;
+open my $newsboat_urls, '<', 'newsboat.urls';
+open my $newsboat_opml, '>', 'newsboat.opml';
+open my $snownews_opml, '>', 'snownews.opml';
+
+print $newsboat_opml <<EOF;
+<?xml version="1.0"?>
+<opml version="1.0">
+  <head>
+    <title>newsboat - Exported Feeds</title>
+  </head>
+  <body>
+EOF
+
+print $snownews_opml <<EOF;
 <?xml version="1.0"?>
 <opml version="2.0">
   <head>
@@ -16,21 +28,31 @@ print $fh1 <<EOF;
   <body>
 EOF
 
-open my $fh0, '<', 'newsboat.urls';
-while (<$fh0>) {
+while (<$newsboat_urls>) {
     next unless m/^(?<url>https?:\/\/.*?)\s+"(?<text>.*?)"\s+(?<category>(?:core|system|xorg|desktop|stuff|dev))$/;
 
-    print $fh1 <<EOF;
+    print $newsboat_opml <<EOF;
+    <outline type="rss" xmlUrl="$+{url}" htmlUrl="" title="$+{text}" category="$+{category}"/>
+EOF
+
+    print $snownews_opml <<EOF;
     <outline text="$+{text}" xmlUrl="$+{url}" category="$+{category}"/>
 EOF
 }
-close $fh0;
 
-print $fh1 <<EOF;
+print $newsboat_opml <<EOF;
+  </body>
+</opml>
+EOF
+
+print $snownews_opml <<EOF;
     <outline text="(New headlines)" xmlUrl="smartfeed:/newitems"/>
   </body>
 </opml>
 EOF
-close $fh1;
+
+close $newsboat_urls;
+close $newsboat_opml;
+close $snownews_opml;
 
 # End of file.
