@@ -10,12 +10,22 @@ updates.
 USAGE
 -----
 
-- Import `urls.opml` file into your RSS/Atom reader.
+**Newsboat**:
+- Import `newsboat.opml` or use `newsboat.urls` as `-u` argument.
 
-- `lint.pl` performs various checks for `urls.opml` file.
-  See `lint.pl --help` for more information.
+**Snownews**:
+- Copy `snownews.opml` file to `~/.config/snownews/urls.opml`.
 
-- `check_urls.sh` checks `urls.opml` file for dead links.
+
+MAINTAINING
+-----------
+
+**Scripts**:
+- `check_dups.sh` checks `newsboat.urls` for duplicate urls.
+- `check_urls.sh` checks `newsboat.urls` file for dead links.
+- `gen_opmls.sh` generates opml files for newsboat and snownews.
+- `lint.pl` performs various checks for `newsboat.urls` file.
+   See `./lint.pl --help` for more information.
 
 
 LICENSE
