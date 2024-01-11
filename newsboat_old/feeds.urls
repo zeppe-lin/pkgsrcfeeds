@@ -884,5 +884,13 @@ https://github.com/tomac/yersinia/releases.atom                                 
 https://github.com/zaproxy/zaproxy/commits/main.atom                                              "~[c  ] zaproxy-bin" stuff
 https://github.com/zaproxy/zaproxy/releases.atom                                                  "~[r  ] zaproxy-bin" stuff
 
+--------=========[.:..:..:..DEV...:..:..:.]=========--------
+
+https://crux.nu/gitweb/?p=tools/pkgutils.git;a=rss                                                "~[c  ] crux pkgtools" dev
+https://crux.nu/gitweb/?p=tools/prt-get.git;a=rss                                                 "~[c  ] crux prt-get" dev
+https://crux.nu/gitweb/?p=tools/prt-utils.git;a=rss                                               "~[c  ] crux prt-utils" dev
+https://crux.nu/gitweb/?p=tools/start-stop-daemon.git;a=rss                                       "~[c  ] crux start-stop-daemon" dev
+https://github.com/guillemj/dpkg/commits/main/utils/start-stop-daemon.c.atom                      "~[c  ] debian start-stop-daemon" dev
+
 # vim: ft=conf sw=2 ts=2 sts=2 et cc=140
 # End of file.
