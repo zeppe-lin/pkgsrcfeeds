@@ -1,4 +1,4 @@
-# newsboat feeds
+# newsboat.urls
 # <,>!sort -k4,4 -k5,5 to sort items alphabetically
 
 --------=========[.:..:..:..CORE..:..:..:.]=========--------
@@ -211,8 +211,8 @@ https://github.com/libfuse/libfuse/releases.atom                                
 https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=glib                                             "~[x  ] glib" system
 https://gitlab.gnome.org/GNOME/glib/-/tags?format=atom                                            "~[r  ] glib" system
 https://github.com/gpg/gnupg/releases.atom                                                        "~[r  ] gnupg" system
-https://github.com/gnutls/gnutls/tags.atom                                                        "~[r  ] gnutls" system
 https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=gnutls                                           "~[x  ] gnutls" system
+https://github.com/gnutls/gnutls/tags.atom                                                        "~[r  ] gnutls" system
 https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=grub2                                            "~[x  ] grub2" system
 https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=grub2-efi                                        "~[x  ] grub2-efi" system
 https://github.com/zeppe-lin/handbook/commits/master.atom                                         "~[c! ] handbook" system
