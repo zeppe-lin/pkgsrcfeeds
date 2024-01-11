@@ -74,6 +74,7 @@
     <outline text="inetutils (nongnu:commits:releases)" xmlUrl="https://git.savannah.nongnu.org/cgit/inetutils.git/atom" category="pkgsrc-core"/>
     <outline text="intltool (crux:opt)" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=intltool" category="pkgsrc-core"/>
     <outline text="iproute2 (crux:core)" xmlUrl="https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=iproute2" category="pkgsrc-core"/>
+    <outline text="iproute2 (github:tags)" xmlUrl="https://github.com/iproute2/iproute2/tags.atom" category="pkgsrc-core"/>
     <outline text="iptables (crux:core)" xmlUrl="https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=iptables" category="pkgsrc-core"/>
     <outline text="iptables (git:commits)" xmlUrl="https://git.netfilter.org/iptables/atom" category="pkgsrc-core"/>
     <outline text="kbd (github:releases)" xmlUrl="https://github.com/legionus/kbd/releases.atom" category="pkgsrc-core"/>
