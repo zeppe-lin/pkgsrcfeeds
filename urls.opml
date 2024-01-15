@@ -228,7 +228,7 @@
     <outline text="handbook @ github.com commits" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/zeppe-lin/handbook/commits/master.atom" category="system"/>
     <outline text="hostapd/wpa-supplicant @ crux.nu ports:opt commits" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=wpa_supplicant" category="system"/>
     <outline text="htop @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/htop-dev/htop/releases.atom" category="system"/>
-    <outline text="iftop @ code.blinkace.com commits:master" xmlUrl="https://code.blinkace.com/pdw/iftop/commits/master?format=atom" category="system"/>
+    <outline text="iftop @ salsa.debian.org tags" xmlUrl="https://salsa.debian.org/debian/iftop/-/tags?format=atom" category="system"/>
     <outline text="inotify-tools @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/inotify-tools/inotify-tools/releases.atom" category="system"/>
     <outline text="iotop @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/Tomas-M/iotop/releases.atom" category="system"/>
     <outline text="iperf @ sourceforge.net releases" xmlUrl="https://sourceforge.net/projects/iperf/rss?path=/" category="system"/>
@@ -500,8 +500,7 @@
     <outline text="gsm @ github.com package:archlinux commits" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/archlinux/svntogit-packages/commits/packages/gsm/trunk/PKGBUILD.atom" category="desktop"/>
     <outline text="imagemagick @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/ImageMagick/ImageMagick/releases.atom" category="desktop"/>
     <outline text="imlib2 @ sourceforge.net releases" xmlUrl="https://sourceforge.net/projects/enlightenment/rss?path=/imlib2-src" category="desktop"/>
-    <outline text="inxi @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/smxi/inxi/commits/master.atom" category="desktop"/>
-    <outline text="inxi @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/smxi/inxi/releases.atom" category="desktop"/>
+    <outline text="inxi @ codeberg.org tags" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://codeberg.org/smxi/inxi/tags.rss" category="desktop"/>
     <outline text="irssi @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/irssi/irssi/releases.atom" category="desktop"/>
     <outline text="jdk11-bin @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/corretto/corretto-11/releases.atom" category="desktop"/>
     <outline text="json-glib @ gitlab.gnome.org tags" xmlUrl="https://gitlab.gnome.org/GNOME/json-glib/-/tags?format=atom" category="desktop"/>
@@ -674,7 +673,6 @@
     <outline text="hunspell-en-us @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/hunspell-en/-/tags?format=atom" category="stuff"/>
     <outline text="hwloc @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/open-mpi/hwloc/releases.atom" category="stuff"/>
     <outline text="ipobfs @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/sighook/ipobfs/commits/master.atom" category="stuff"/>
-    <outline text="ipobfs @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/sighook/ipobfs/releases.atom" category="stuff"/>
     <outline text="jadx-bin @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/skylot/jadx/commits/master.atom" category="stuff"/>
     <outline text="jadx-bin @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/skylot/jadx/releases.atom" category="stuff"/>
     <outline text="jd-gui-bin @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/java-decompiler/jd-gui/releases.atom" category="stuff"/>
@@ -721,7 +719,7 @@
     <outline text="nuclei-bin @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/projectdiscovery/nuclei/releases.atom" category="stuff"/>
     <outline text="nvidia/nvidia-nox @ crux.nu ports:opt commits" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=nvidia" category="stuff"/>
     <outline text="office2hashcat @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/sighook/office2hashcat/commits/master.atom" category="stuff"/>
-    <outline text="p0f @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/p0f/p0f/releases.atom" category="stuff"/>
+    <outline text="p0f @ gitlab.archlinux.org tags" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://gitlab.archlinux.org/archlinux/packaging/packages/p0f/-/tags?format=atom" category="stuff"/>
     <outline text="p5-b-cow @ metacpan.org releases" xmlUrl="https://metacpan.org/dist/B-COW/releases.rss" category="stuff"/>
     <outline text="p5-capture-tiny @ metacpan.org releases" xmlUrl="https://metacpan.org/dist/Capture-Tiny/releases.rss" category="stuff"/>
     <outline text="p5-cgi @ metacpan.org releases" xmlUrl="https://metacpan.org/dist/CGI/releases.rss" category="stuff"/>
@@ -816,7 +814,6 @@
     <outline text="pixiewps @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/wiire-a/pixiewps/commits/master.atom" category="stuff"/>
     <outline text="pixiewps @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/wiire-a/pixiewps/releases.atom" category="stuff"/>
     <outline text="pixload @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/sighook/pixload/commits/master.atom" category="stuff"/>
-    <outline text="pixload @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/sighook/pixload/releases.atom" category="stuff"/>
     <outline text="pkgdiff-lvc @ github.com tags" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/lvc/pkgdiff/tags.atom" category="stuff"/>
     <outline text="pod2mdoc @ github.com package:freebsd commits" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/freebsd/freebsd-ports/commits/main/textproc/pod2mdoc.atom" category="stuff"/>
     <outline text="pod2pdf @ metacpan.org releases" xmlUrl="https://metacpan.org/dist/pod2pdf/releases.rss" category="stuff"/>
