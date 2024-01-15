@@ -9,22 +9,18 @@ software updates.
 
 USAGE
 -----
-
-**Newsboat**:
-- Import `newsboat.opml` or use `newsboat.urls` as `-u` argument.
-
-**Snownews**:
-- Copy `snownews.opml` file to `~/.config/snownews/urls.opml`.
+Import `urls.opml` with any feed reader you like.
+In case of **snownews** just copy (or make a symlink) this file
+to `~/.config/snownews/` directory.
 
 
 MAINTAINING
 -----------
 
 **Scripts**:
-- `check_dups.sh` checks `newsboat.urls` for duplicate urls.
-- `check_urls.sh` checks `newsboat.urls` file for dead links.
-- `gen_opmls.sh` generates opml files for newsboat and snownews.
-- `lint.pl` performs various checks for `newsboat.urls` file.
+- `check_dups.sh` checks `urls.opml` for duplicate urls.
+- `check_urls.sh` checks `urls.opml` file for dead links.
+- `lint.pl` performs various checks for `urls.opml` file.
    See `./lint.pl --help` for more information.
 
 
