@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <opml version="2.0">
   <head>
-    <title>zeppe-Lin pkgsrc feeds for snownews</title>
+    <title>snownews subscriptions</title>
   </head>
   <body>
     <outline text="~[x  ] acl" xmlUrl="https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=acl" category="core"/>
@@ -131,7 +131,7 @@
     <outline text="~[r  ] pciutils" xmlUrl="https://github.com/pciutils/pciutils/releases.atom" category="core"/>
     <outline text="~[r  ] perl" xmlUrl="https://github.com/Perl/perl5/releases.atom" category="core"/>
     <outline text="~[r  ] pkg-config" xmlUrl="https://gitlab.freedesktop.org/pkg-config/pkg-config/-/tags?format=atom" category="core"/>
-    <outline text="~[c! ] pkgman" xmlUrl="https://github.com/zeppe-lin/pkgman/commits/master.atom" category="core"/>
+    <outline text="~[c! ] pkgman" xmlUrl="exec:curl -H 'Accept: Application/atom+xml' https://github.com/zeppe-lin/pkgman/commits/master.atom" category="core"/>
     <outline text="~[c! ] pkgmk" xmlUrl="https://github.com/zeppe-lin/pkgmk/commits/master.atom" category="core"/>
     <outline text="~[c! ] pkgutils" xmlUrl="https://github.com/zeppe-lin/pkgutils/commits/master.atom" category="core"/>
     <outline text="~[x  ] procps" xmlUrl="https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=procps" category="core"/>
@@ -877,3 +877,6 @@
     <outline text="(New headlines)" xmlUrl="smartfeed:/newitems"/>
   </body>
 </opml>
+<!--
+vim: sw=2 ts=2 sts=2 et
+-->
