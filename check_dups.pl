@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-# Check newsboat.urls file for duplicate urls.
+# Check urls.opml file for duplicate urls.
 
 use strict;
 use warnings;
@@ -8,17 +8,15 @@ use autodie;
 
 my %seen = ();
 
-open my $fh, '<', 'newsboat.urls';
+open my $fh, '<', 'urls.opml';
 while (<$fh>) {
-    next unless /^https?:\/\//;
-
-    my $url = (split / /)[0];
-    $seen{ "$url" }++;
+    next unless /\bhttps?:\/\/[^"'> ]+\b/;
+    $seen{ $& }++;
 }
 close $fh;
 
 for (keys %seen) {
-    print "$_\n" if $seen{ "$_" } > 1;
+    print "$_\n" if $seen{$_} > 1;
 }
 
 # End of file.
