@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-# Various checks for newsboat.urls file.
+# Various checks for urls.opml file.
 
 use strict;
 use warnings;
@@ -49,11 +49,16 @@ my %repo     = map { chomp; $_ => 1 } qx(pkgman printf "%n\n");
 ######################################################################
 
 sub load_feeds {
-    open my $fh, 'newsboat.urls';
+    open my $fh, 'urls.opml';
     while (<$fh>) {
-        next unless /^(?:.*?)\s+"~\[.*?\]\s+(?<title>.*?)"(?:\s+(?:.*?)\s+)?$/;
-
-        for my $pkg (split /\/\s*/, $+{title}) {
+        next unless m{
+            \s*
+            <outline\s+
+                text="(?<title>.*?)\s+@.*?"\s+
+                xmlUrl=".*"\s+
+                category="(?:core|system|xorg|desktop|stuff)"/>
+        }xsm;
+        for my $pkg (split /\//, $+{title}) {
             $feed{ $pkg }++;
         }
     }
