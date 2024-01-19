@@ -895,9 +895,9 @@
     <outline text="prt-get @ crux.nu commits" xmlUrl="https://crux.nu/gitweb/?p=tools/prt-get.git;a=rss" category="dev"/>
     <outline text="prt-utils @ crux.nu commits" xmlUrl="https://crux.nu/gitweb/?p=tools/prt-utils.git;a=rss" category="dev"/>
     <outline text="start-stop-daemon (crux fork) @ crux.nu commits" xmlUrl="https://crux.nu/gitweb/?p=tools/start-stop-daemon.git;a=rss" category="dev"/>
-    <outline text="start-stop-daemon (debian upstream) @ github.com commits" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/guillemj/dpkg/commits/main/utils/start-stop-daemon.c.atom" category="dev"/>
-    <outline text="elbullazul's trinity theme @ github.com commits" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/gtk-upgraded/Trinity/commits/master.atom" category="dev"/>
-    <outline text="tinyramfs @ github.com commits" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/illiliti/tinyramfs/commit.atom" category="dev"/>
+    <outline text="start-stop-daemon (debian upstream) @ github.com commits:main" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/guillemj/dpkg/commits/main/utils/start-stop-daemon.c.atom" category="dev"/>
+    <outline text="elbullazul's trinity theme @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/gtk-upgraded/Trinity/commits/master.atom" category="dev"/>
+    <outline text="tinyramfs @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/illiliti/tinyramfs/commits/master.atom" category="dev"/>
     <outline text="(New headlines)" xmlUrl="smartfeed:/newitems"/>
     <--
       -->
