@@ -73,7 +73,7 @@ The following repo packages have no RSS/Atom feeds:
 
 EOF
     for (sort keys %repo) {
-        next if exists $feed{$_};
+        next if exists $feed{ $_ };
 
         my $pkgsrcpath = qx(pkgman path $_);
         chomp $pkgsrcpath;
@@ -96,7 +96,7 @@ The following RSS/Atom feeds in urls.opml are redundant:
 
 EOF
     for (sort keys %feed) {
-        print "$_\n" unless exists $repo{$_};
+        print "$_\n" unless exists $repo{ $_ };
     }
 }
 
