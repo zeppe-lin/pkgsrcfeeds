@@ -464,6 +464,11 @@
     <outline text="xorg-xwininfo @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/app/xwininfo/-/tags?format=atom" category="xorg"/>
     <outline text="xrestop @ crux.nu ports:xorg commits" xmlUrl="https://crux.nu/gitweb/?p=ports/xorg.git;a=atom;f=xrestop" category="xorg"/>
     <outline text="xsel @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/kfish/xsel/releases.atom" category="xorg"/>
+    <!--
+      ==================
+      = PKGSRC-DESKTOP =
+      ==================
+    -->
     <outline text="alsa-firmware @ github.com tags" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/alsa-project/alsa-firmware/tags.atom" category="desktop"/>
     <outline text="alsa-plugins @ github.com tags" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/alsa-project/alsa-plugins/tags.atom" category="desktop"/>
     <outline text="apulse @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/i-rinat/apulse/commits/master.atom" category="desktop"/>
@@ -580,6 +585,7 @@
     <outline text="unrar @ crux.nu ports:opt commits" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=unrar" category="desktop"/>
     <outline text="urlview @ salsa.debian.org tags" xmlUrl="https://salsa.debian.org/debian/urlview/-/tags?format=atom" category="desktop"/>
     <outline text="vifm @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/vifm/vifm/releases.atom" category="desktop"/>
+    <outline text="vifm-colors @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/vifm/vifm-colors/releases.atom" category="desktop"/>
     <outline text="wgetpaste @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/zlin/wgetpaste/releases.atom" category="desktop"/>
     <outline text="x264 @ code.videolan.org commits:master" xmlUrl="https://code.videolan.org/videolan/x264/-/commits/master?format=atom" category="desktop"/>
     <outline text="x264 @ crux.nu ports:contrib" xmlUrl="https://crux.nu/gitweb/?p=ports/contrib.git;a=atom;f=x264" category="desktop"/>
@@ -899,8 +905,8 @@
     <outline text="elbullazul's trinity theme @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/gtk-upgraded/Trinity/commits/master.atom" category="dev"/>
     <outline text="tinyramfs @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/illiliti/tinyramfs/commits/master.atom" category="dev"/>
     <outline text="(New headlines)" xmlUrl="smartfeed:/newitems"/>
-    <--
-      -->
+    <!--
+    -->
   </body>
 </opml>
 <!--
