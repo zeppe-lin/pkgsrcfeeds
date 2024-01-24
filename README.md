@@ -10,8 +10,8 @@ software updates.
 USAGE
 -----
 Import `urls.opml` with any feed reader you like.
-In case of **snownews** just copy (or make a symlink) this file
-to `~/.config/snownews/` directory.
+In case of **snownews** just copy this file to
+`~/.config/snownews/` directory.
 
 
 MAINTAINING
