@@ -16,7 +16,7 @@ while (<$fh>) {
 close $fh;
 
 for (keys %seen) {
-    print "$_\n" if $seen{$_} > 1;
+    print "$_\n" if $seen{ $_ } > 1;
 }
 
 # End of file.
