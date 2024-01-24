@@ -567,6 +567,8 @@
     <outline text="ratpoison @ git.savannah.nongnu.org commits" xmlUrl="https://git.savannah.nongnu.org/cgit/ratpoison.git/atom" category="desktop"/>
     <outline text="sbc @ crux.nu ports:contrib commits" xmlUrl="https://crux.nu/gitweb/?p=ports/contrib.git;a=atom;f=sbc" category="desktop"/>
     <outline text="scrot @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/resurrecting-open-source-projects/scrot/releases.atom" category="desktop"/>
+    <outline text="snownews @ sourceforge.net releases" xmlUrl="https://sourceforge.net/projects/snownews/rss?path=/" category="desktop"/>
+    <outline text="snownews @ sourceforge.net commits:master" xmlUrl="https://sourceforge.net/p/snownews/code/feed/" category="desktop"/>
     <outline text="ssvnc @ tracker.debian.org news" xmlUrl="https://tracker.debian.org/pkg/ssvnc/rss" category="desktop"/>
     <outline text="st @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/zeppe-lin/st/commits/master.atom" category="desktop"/>
     <outline text="stfl @ crux.nu ports:opt commits" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=stfl" category="desktop"/>
