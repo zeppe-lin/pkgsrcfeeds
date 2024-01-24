@@ -126,7 +126,7 @@ sub main {
         "r|redundant" => \my $opt_redundant,
         "v|version"   => \my $opt_version,
         "h|help"      => \my $opt_help,
-    ) or die "$PROGRAM: error in command-line arguments\n";
+    ) or die "Try '$PROGRAM --help' for more information.\n";
 
     print_version() and exit if $opt_version;
     print_help()    and exit if $opt_help;
