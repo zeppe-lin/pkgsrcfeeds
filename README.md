@@ -21,7 +21,7 @@ MAINTAINING
 - `check_dups.sh` checks `urls.opml` for duplicate urls.
 - `check_urls.sh` checks `urls.opml` file for dead links.
 - `lint.pl` performs various checks for `urls.opml` file.
-   See `./lint.pl --help` for more information.
+   Try `./lint.pl --help` for more information.
 
 
 LICENSE
