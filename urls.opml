@@ -179,7 +179,7 @@
     <outline text="wget @ git.savannah.nongnu.org commits" xmlUrl="https://git.savannah.nongnu.org/cgit/wget.git/atom" category="core"/>
     <outline text="which @ crux.nu ports:core commits" xmlUrl="https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=which" category="core"/>
     <outline text="xz @ crux.nu ports:core commits" xmlUrl="https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=xz" category="core"/>
-    <outline text="xz @ git.tukaani.org commits" xmlUrl="https://git.tukaani.org/?p=xz.git;a=atom" category="core"/>
+    <outline text="xz @ github.com releases" xmlUrl="https://github.com/tukaani-project/xz/releases.atom" category="core"/>
     <outline text="zlib @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/madler/zlib/releases.atom" category="core"/>
     <outline text="zstd @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/facebook/zstd/releases.atom" category="core"/>
     <!--
