@@ -252,7 +252,7 @@
     <outline text="libnl @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/thom311/libnl/releases.atom" category="system"/>
     <outline text="libnvme @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/linux-nvme/libnvme/releases.atom" category="system"/>
     <outline text="libpcap @ github.com tags" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/the-tcpdump-group/libpcap/tags.atom" category="system"/>
-    <outline text="libpng @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/glennrp/libpng/releases.atom" category="system"/>
+    <outline text="libpng @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/pnggroup/libpng/releases.atom" category="system"/>
     <outline text="libssh @ crux.nu ports:contrib commits" xmlUrl="https://crux.nu/gitweb/?p=ports/contrib.git;a=atom;f=libssh" category="system"/>
     <outline text="libtasn1 @ crux.nu ports:opt commits" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=libtasn1" category="system"/>
     <outline text="libunwind @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/libunwind/libunwind/releases.atom" category="system"/>
