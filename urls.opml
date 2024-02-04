@@ -832,7 +832,7 @@
     <outline text="py3-editorconfig @ github.com tags" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/editorconfig/editorconfig-core-py/tags.atom" category="stuff"/>
     <outline text="py3-gitdb @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/gitpython-developers/gitdb/releases.atom" category="stuff"/>
     <outline text="py3-gitpython @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/gitpython-developers/gitpython/releases.atom" category="stuff"/>
-    <outline text="py3-jsbeautifier @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/beautify-web/js-beautify/releases.atom" category="stuff"/>
+    <outline text="py3-jsbeautifier @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/beautifier/js-beautify/releases.atom" category="stuff"/>
     <outline text="py3-pip @ pypi.org releases" xmlUrl="https://pypi.org/rss/project/pip/releases.xml" category="stuff"/>
     <outline text="py3-pycparser @ pypi.org releases" xmlUrl="https://pypi.org/rss/project/pycparser/releases.xml" category="stuff"/>
     <outline text="py3-smmap @ pypi.org releases" xmlUrl="https://pypi.org/rss/project/smmap/releases.xml" category="stuff"/>
