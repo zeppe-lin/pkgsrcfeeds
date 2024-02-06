@@ -58,7 +58,7 @@ sub load_feeds {
             <outline\s+
                 text="(?<title>.*?)\s+@.*?"\s+
                 xmlUrl=".*"\s+
-                category="(?:core|system|xorg|desktop|stuff)"/>
+                category="(?:core|system|xorg|desktop|stuff|games)"/>
         }xsm;
         for my $pkg (split /\//, $+{title}) {
             $feed{ $pkg }++;
