@@ -18,6 +18,8 @@ my @obsolete_packages = qw(
     autoconf-2.13
     fuse2
     gtk-engines
+    gtk-engine-hc
+    gtk-engine-redmond95
     hcxtools3
     ktsuss
     librsvg-compat
