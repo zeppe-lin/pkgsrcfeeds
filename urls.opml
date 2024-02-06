@@ -73,8 +73,8 @@
     <outline text="inetutils @ crux.nu ports:core commits" xmlUrl="https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=inetutils" category="core"/>
     <outline text="inetutils @ git.savannah.nongnu.org commits releases" xmlUrl="https://git.savannah.nongnu.org/cgit/inetutils.git/atom" category="core"/>
     <outline text="intltool @ crux.nu ports:opt commits" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=intltool" category="core"/>
-    <outline text="iproute2 @ github.com tags" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/iproute2/iproute2/tags.atom" category="core"/>
     <outline text="iproute2 @ crux.nu ports:core commits" xmlUrl="https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=iproute2" category="core"/>
+    <outline text="iproute2 @ github.com tags" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/iproute2/iproute2/tags.atom" category="core"/>
     <outline text="iptables @ crux.nu ports:core commits" xmlUrl="https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=iptables" category="core"/>
     <outline text="iptables @ git.netfilter.org commits" xmlUrl="https://git.netfilter.org/iptables/atom" category="core"/>
     <outline text="kbd @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/legionus/kbd/releases.atom" category="core"/>
@@ -101,8 +101,8 @@
     <outline text="libpcre2 @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/PCRE2Project/pcre2/releases.atom" category="core"/>
     <outline text="libpipeline @ crux.nu ports:core commits" xmlUrl="https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=libpipeline" category="core"/>
     <outline text="libpipeline @ gitlab.com tags" xmlUrl="https://gitlab.com/cjwatson/libpipeline/-/tags?format=atom" category="core"/>
-    <outline text="libtirpc @ git.linux-nfs.org commits releases" xmlUrl="http://git.linux-nfs.org/?p=steved/libtirpc.git;a=atom" category="core"/>
     <outline text="libtirpc @ crux.nu ports:core commits" xmlUrl="https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=libtirpc" category="core"/>
+    <outline text="libtirpc @ git.linux-nfs.org commits releases" xmlUrl="http://git.linux-nfs.org/?p=steved/libtirpc.git;a=atom" category="core"/>
     <outline text="libtool @ crux.nu ports:core commits" xmlUrl="https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=libtool" category="core"/>
     <outline text="libtool @ git.savannah.nongnu.org commits" xmlUrl="https://git.savannah.nongnu.org/cgit/libtool.git/atom" category="core"/>
     <outline text="libunistring @ crux.nu ports:core commits" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=libunistring" category="core"/>
@@ -179,7 +179,7 @@
     <outline text="wget @ git.savannah.nongnu.org commits" xmlUrl="https://git.savannah.nongnu.org/cgit/wget.git/atom" category="core"/>
     <outline text="which @ crux.nu ports:core commits" xmlUrl="https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=which" category="core"/>
     <outline text="xz @ crux.nu ports:core commits" xmlUrl="https://crux.nu/gitweb/?p=ports/core.git;a=atom;f=xz" category="core"/>
-    <outline text="xz @ github.com releases" xmlUrl="https://github.com/tukaani-project/xz/releases.atom" category="core"/>
+    <outline text="xz @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/tukaani-project/xz/releases.atom" category="core"/>
     <outline text="zlib @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/madler/zlib/releases.atom" category="core"/>
     <outline text="zstd @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/facebook/zstd/releases.atom" category="core"/>
     <!--
@@ -233,8 +233,8 @@
     <outline text="iotop @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/Tomas-M/iotop/releases.atom" category="system"/>
     <outline text="iperf @ sourceforge.net releases" xmlUrl="https://sourceforge.net/projects/iperf/rss?path=/" category="system"/>
     <outline text="iputils @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/iputils/iputils/releases.atom" category="system"/>
-    <outline text="iw @ github.com package:archlinux commits" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/archlinux/svntogit-packages/commits/packages/iw/trunk.atom" category="system"/>
     <outline text="iw @ git.kernel.org commits releases" xmlUrl="https://git.kernel.org/pub/scm/linux/kernel/git/jberg/iw.git/atom/?h=master" category="system"/>
+    <outline text="iw @ github.com package:archlinux commits" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/archlinux/svntogit-packages/commits/packages/iw/trunk.atom" category="system"/>
     <outline text="json-c @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/json-c/json-c/releases.atom" category="system"/>
     <outline text="keyutils @ git.kernel.org commits:master releases" xmlUrl="https://git.kernel.org/pub/scm/linux/kernel/git/dhowells/keyutils.git/atom/?h=master" category="system"/>
     <outline text="lftp @ crux.nu ports:opt commits" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=lftp" category="system"/>
@@ -275,8 +275,8 @@
     <outline text="mkrootfs @ github.com commits" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/zeppe-lin/mkrootfs/commits/master.atom" category="system"/>
     <outline text="monit @ crux.nu ports:contrib commits" xmlUrl="https://crux.nu/gitweb/?p=ports/contrib.git;a=atom;f=monit" category="system"/>
     <outline text="mysql @ crux.nu ports:opt commits" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=mysql" category="system"/>
-    <outline text="nettle @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/gnutls/nettle/releases.atom" category="system"/>
     <outline text="net-tools @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/ecki/net-tools/commits/master.atom" category="system"/>
+    <outline text="nettle @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/gnutls/nettle/releases.atom" category="system"/>
     <outline text="nfs-utils @ sourceforge.net releases" xmlUrl="https://sourceforge.net/projects/nfs/rss?path=/nfs-utils" category="system"/>
     <outline text="npth @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/gpg/npth/releases.atom" category="system"/>
     <outline text="ntfs-3g @ sourceforge.net news" xmlUrl="https://sourceforge.net/p/ntfs-3g/ntfs-3g/feed/" category="system"/>
@@ -384,6 +384,7 @@
     <outline text="xorg-bdftopcf @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/util/bdftopcf/-/tags?format=atom" category="xorg"/>
     <outline text="xorg-cf-files @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/util/cf/-/tags?format=atom" category="xorg"/>
     <outline text="xorg-font-alias @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/font/alias/-/tags?format=atom" category="xorg"/>
+    <outline text="xorg-font-misc-misc @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/font/misc-misc/-/tags?format=atom" category="xorg"/>
     <outline text="xorg-font-util @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/font/util/-/tags?format=atom" category="xorg"/>
     <outline text="xorg-imake @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/util/imake/-/tags?format=atom" category="xorg"/>
     <outline text="xorg-libdmx @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/lib/libdmx/-/tags?format=atom" category="xorg"/>
@@ -440,6 +441,8 @@
     <outline text="xorg-xcb-util-renderutil @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/lib/libxcb-render-util/-/tags?format=atom" category="xorg"/>
     <outline text="xorg-xcb-util-wm @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/lib/libxcb-wm/-/tags?format=atom" category="xorg"/>
     <outline text="xorg-xcompmgr @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/app/xcompmgr/-/tags?format=atom" category="xorg"/>
+    <outline text="xorg-xcursorgen @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/app/xcursorgen/-/tags?format=atom" category="xorg"/>
+    <outline text="xorg-xdpyinfo @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/app/xdpyinfo/-/tags?format=atom" category="xorg"/>
     <outline text="xorg-xev @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/app/xev/-/tags?format=atom" category="xorg"/>
     <outline text="xorg-xf86-input-libinput @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/driver/xf86-input-libinput/-/tags?format=atom" category="xorg"/>
     <outline text="xorg-xf86-input-mouse @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/driver/xf86-input-mouse/-/tags?format=atom" category="xorg"/>
@@ -453,6 +456,7 @@
     <outline text="xorg-xinput @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/app/xinput/-/tags?format=atom" category="xorg"/>
     <outline text="xorg-xkbcomp @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/app/xkbcomp/-/tags?format=atom" category="xorg"/>
     <outline text="xorg-xkill @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/app/xkill/-/tags?format=atom" category="xorg"/>
+    <outline text="xorg-xmag @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/app/xmag/-/tags?format=atom" category="xorg"/>
     <outline text="xorg-xmodmap @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/app/xmodmap/-/tags?format=atom" category="xorg"/>
     <outline text="xorg-xorgproto @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/proto/xorgproto/-/tags?format=atom" category="xorg"/>
     <outline text="xorg-xprop @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/app/xprop/-/tags?format=atom" category="xorg"/>
@@ -464,6 +468,7 @@
     <outline text="xorg-xwininfo @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/app/xwininfo/-/tags?format=atom" category="xorg"/>
     <outline text="xrestop @ crux.nu ports:xorg commits" xmlUrl="https://crux.nu/gitweb/?p=ports/xorg.git;a=atom;f=xrestop" category="xorg"/>
     <outline text="xsel @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/kfish/xsel/releases.atom" category="xorg"/>
+    <outline text="xterm @ crux.nu ports:opt commits" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=xterm" category="xorg"/>
     <!--
       ==================
       = PKGSRC-DESKTOP =
@@ -550,8 +555,8 @@
     <outline text="p5-net-dbus @ metacpan.org releases" xmlUrl="https://metacpan.org/dist/Net-DBus/releases.rss" category="desktop"/>
     <outline text="p5-pango @ metacpan.org releases" xmlUrl="https://metacpan.org/dist/Pango/releases.rss" category="desktop"/>
     <outline text="p5-xml-twig @ metacpan.org releases" xmlUrl="https://metacpan.org/dist/XML-Twig/releases.rss" category="desktop"/>
-    <outline text="palemoon-upx @ repo.palemoon.org tags" xmlUrl="https://repo.palemoon.org/MoonchildProductions/UXP/tags.rss" category="desktop"/>
     <outline text="palemoon @ repo.palemoon.org tags" xmlUrl="https://repo.palemoon.org/MoonchildProductions/Pale-Moon/tags.rss" category="desktop"/>
+    <outline text="palemoon-upx @ repo.palemoon.org tags" xmlUrl="https://repo.palemoon.org/MoonchildProductions/UXP/tags.rss" category="desktop"/>
     <outline text="papirus-icon-theme @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/releases.atom" category="desktop"/>
     <outline text="password-store @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/zx2c4/password-store/commits/master.atom" category="desktop"/>
     <outline text="password-store @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/zx2c4/password-store/releases.atom" category="desktop"/>
@@ -561,14 +566,15 @@
     <outline text="qemu @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/qemu/qemu/releases.atom" category="desktop"/>
     <outline text="qemuconf @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/zeppe-lin/qemuconf/commits/master.atom" category="desktop"/>
     <outline text="qrencode @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/fukuchi/libqrencode/releases.atom" category="desktop"/>
-    <outline text="qt5ct @ sourceforge.net releases" xmlUrl="https://sourceforge.net/projects/qt5ct/rss?path=/" category="desktop"/>
     <outline text="qt5-styleplugins @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/qt/qtstyleplugins/commits/master.atom" category="desktop"/>
     <outline text="qt5-styleplugins @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/qt/qtstyleplugins/releases.atom" category="desktop"/>
+    <outline text="qt5ct @ sourceforge.net releases" xmlUrl="https://sourceforge.net/projects/qt5ct/rss?path=/" category="desktop"/>
     <outline text="ratpoison @ git.savannah.nongnu.org commits" xmlUrl="https://git.savannah.nongnu.org/cgit/ratpoison.git/atom" category="desktop"/>
+    <outline text="retrosmart-cursor-theme @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/mdomlop/retrosmart-x11-cursors/commits/master.atom" category="desktop"/>
     <outline text="sbc @ crux.nu ports:contrib commits" xmlUrl="https://crux.nu/gitweb/?p=ports/contrib.git;a=atom;f=sbc" category="desktop"/>
     <outline text="scrot @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/resurrecting-open-source-projects/scrot/releases.atom" category="desktop"/>
-    <outline text="snownews @ sourceforge.net releases" xmlUrl="https://sourceforge.net/projects/snownews/rss?path=/" category="desktop"/>
     <outline text="snownews @ sourceforge.net commits:master" xmlUrl="https://sourceforge.net/p/snownews/code/feed/" category="desktop"/>
+    <outline text="snownews @ sourceforge.net releases" xmlUrl="https://sourceforge.net/projects/snownews/rss?path=/" category="desktop"/>
     <outline text="ssvnc @ tracker.debian.org news" xmlUrl="https://tracker.debian.org/pkg/ssvnc/rss" category="desktop"/>
     <outline text="st @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/zeppe-lin/st/commits/master.atom" category="desktop"/>
     <outline text="stfl @ crux.nu ports:opt commits" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=stfl" category="desktop"/>
@@ -589,6 +595,7 @@
     <outline text="vifm @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/vifm/vifm/releases.atom" category="desktop"/>
     <outline text="vifm-colors @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/vifm/vifm-colors/releases.atom" category="desktop"/>
     <outline text="wgetpaste @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/zlin/wgetpaste/releases.atom" category="desktop"/>
+    <outline text="win3x-gtk-theme @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/zeppe-lin/win3x-gtk-theme/commits/master.atom" category="desktop"/>
     <outline text="x264 @ code.videolan.org commits:master" xmlUrl="https://code.videolan.org/videolan/x264/-/commits/master?format=atom" category="desktop"/>
     <outline text="x264 @ crux.nu ports:contrib" xmlUrl="https://crux.nu/gitweb/?p=ports/contrib.git;a=atom;f=x264" category="desktop"/>
     <outline text="xcdroast @ sourceforge.net releases" xmlUrl="https://sourceforge.net/projects/xcdroast/rss?path=/" category="desktop"/>
@@ -610,9 +617,9 @@
     <outline text="apksigcopier @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/obfusk/apksigcopier/commits/master.atom" category="stuff"/>
     <outline text="apktool-bin @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/iBotPeaches/Apktool/commits/master.atom" category="stuff"/>
     <outline text="apktool-bin @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/iBotPeaches/Apktool/releases.atom" category="stuff"/>
-    <outline text="arpoison @ github.com package:freebsd commits" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/freebsd/freebsd-ports/commits/main/net/arpoison.atom" category="stuff"/>
     <outline text="arp-scan @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/royhills/arp-scan/commits/master.atom" category="stuff"/>
     <outline text="arp-scan @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/royhills/arp-scan/releases.atom" category="stuff"/>
+    <outline text="arpoison @ github.com package:freebsd commits" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/freebsd/freebsd-ports/commits/main/net/arpoison.atom" category="stuff"/>
     <outline text="arpspoof @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/byt3bl33d3r/arpspoof/commits/master.atom" category="stuff"/>
     <outline text="asleap @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/funtastix/asleap/commits/master.atom" category="stuff"/>
     <outline text="assetfinder-bin @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/tomnomnom/assetfinder/releases.atom" category="stuff"/>
@@ -621,10 +628,10 @@
     <outline text="btrfs-progs @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/kdave/btrfs-progs/releases.atom" category="stuff"/>
     <outline text="bully @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/aanarchyy/bully/commits/master.atom" category="stuff"/>
     <outline text="bully @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/aanarchyy/bully/releases.atom" category="stuff"/>
+    <outline text="c-ares @ crux.nu ports:opt commits" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=c-ares" category="stuff"/>
     <outline text="cabextract @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/kyz/libmspack/releases.atom" category="stuff"/>
     <outline text="captal @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/sighook/captal/commits/master.atom" category="stuff"/>
     <outline text="captal @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/sighook/captal/releases.atom" category="stuff"/>
-    <outline text="c-ares @ crux.nu ports:opt commits" xmlUrl="https://crux.nu/gitweb/?p=ports/opt.git;a=atom;f=c-ares" category="stuff"/>
     <outline text="checksec @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/slimm609/checksec.sh/releases.atom" category="stuff"/>
     <outline text="cowpatty @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/joswr1ght/cowpatty/commits/master.atom" category="stuff"/>
     <outline text="cowpatty @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/joswr1ght/cowpatty/releases.atom" category="stuff"/>
@@ -684,6 +691,7 @@
     <outline text="jadx-bin @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/skylot/jadx/commits/master.atom" category="stuff"/>
     <outline text="jadx-bin @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/skylot/jadx/releases.atom" category="stuff"/>
     <outline text="jd-gui-bin @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/java-decompiler/jd-gui/releases.atom" category="stuff"/>
+    <outline text="jdk17-bin @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/corretto/corretto-17/releases.atom" category="stuff"/>
     <outline text="john @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/openwall/john/releases.atom" category="stuff"/>
     <outline text="johnny @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/openwall/johnny/releases.atom" category="stuff"/>
     <outline text="joomscan @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/OWASP/joomscan/commits/master.atom" category="stuff"/>
@@ -895,17 +903,32 @@
     <outline text="zaproxy-bin @ github.com commits:main" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/zaproxy/zaproxy/commits/main.atom" category="stuff"/>
     <outline text="zaproxy-bin @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/zaproxy/zaproxy/releases.atom" category="stuff"/>
     <!--
+      =========
+      = GAMES =
+      =========
+    -->
+    <outline text="dgen-sdl @ sourceforge.net releases" xmlUrl="https://sourceforge.net/projects/dgen/rss?path=/dgen" category="games"/>
+    <outline text="libcddb @ sourceforge.net releases" xmlUrl="https://sourceforge.net/projects/libcddb/rss?path=/libcddb" category="games"/>
+    <outline text="libcdio @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/libcdio/-/tags?format=atom" category="games"/>
+    <outline text="openal @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/kcat/openal-soft/releases.atom" category="games"/>
+    <outline text="openarena-bin @ salsa.debian.org" xmlUrl="https://salsa.debian.org/games-team/openarena/-/tags?format=atom" category="games"/>
+    <outline text="pcsxr @ github.com tags" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/frealgagu/PCSX-Reloaded/tags.atom" category="games"/>
+    <outline text="snes9x @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/snes9xgit/snes9x/releases.atom" category="games"/>
+    <outline text="urbanterror-bin @ github.com/freebsd commits" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/freebsd/freebsd-ports/commits/main/games/urbanterror-data.atom" category="games"/>
+    <!--
       =======
       = DEV =
       =======
     -->
+    <outline text="elbullazul's trinity theme @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/gtk-upgraded/Trinity/commits/master.atom" category="dev"/>
     <outline text="pkgtools @ crux.nu commits" xmlUrl="https://crux.nu/gitweb/?p=tools/pkgutils.git;a=rss" category="dev"/>
     <outline text="prt-get @ crux.nu commits" xmlUrl="https://crux.nu/gitweb/?p=tools/prt-get.git;a=rss" category="dev"/>
     <outline text="prt-utils @ crux.nu commits" xmlUrl="https://crux.nu/gitweb/?p=tools/prt-utils.git;a=rss" category="dev"/>
     <outline text="start-stop-daemon (crux fork) @ crux.nu commits" xmlUrl="https://crux.nu/gitweb/?p=tools/start-stop-daemon.git;a=rss" category="dev"/>
     <outline text="start-stop-daemon (debian upstream) @ github.com commits:main" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/guillemj/dpkg/commits/main/utils/start-stop-daemon.c.atom" category="dev"/>
-    <outline text="elbullazul's trinity theme @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/gtk-upgraded/Trinity/commits/master.atom" category="dev"/>
     <outline text="tinyramfs @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/illiliti/tinyramfs/commits/master.atom" category="dev"/>
+    <!--
+    -->
     <outline text="(New headlines)" xmlUrl="smartfeed:/newitems"/>
     <!--
     -->
