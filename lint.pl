@@ -115,8 +115,14 @@ EOF
         next unless /^\s*<outline/;
         next if /^\s*<outline text="\(New headlines\)" xmlUrl="smartfeed:\/newitems"\/>$/;
 
-        print "malformed line $lineno: $_\n"
+        print "malformed line at $lineno: $_\n"
             unless m/^\s*<outline text=".*?" xmlUrl=".*?" category="(?:core|system|xorg|desktop|stuff|games|dev)"\/>$/;
+
+        print "wrong github fetching (use curl) at $lineno: $_\n"
+            if m/xmlUrl="https:\/\/github.com\/.*.atom"/;
+
+        print "malformed curl request qt $lineno: $_\n"
+            if m/xmlUrl="exec:\s*curl/ && !m/xmlUrl="exec:curl -H 'Accept: application\/atom\+xml' https?:\/\/.*?"/;
     }
     close $fh;
 }
