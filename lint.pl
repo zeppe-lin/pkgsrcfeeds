@@ -102,6 +102,25 @@ EOF
     }
 }
 
+sub print_typos {
+    print <<EOF;
+The following typos was found in urls.opml:
+===========================================
+
+EOF
+    open my $fh, '<', 'urls.opml';
+    my $lineno = 0;
+    for (<$fh>) {
+        $lineno++;
+        next unless /^\s*<outline/;
+        next if /^\s*<outline text="\(New headlines\)" xmlUrl="smartfeed:\/newitems"\/>$/;
+
+        print "malformed line $lineno: $_\n"
+            unless m/^\s*<outline text=".*?" xmlUrl=".*?" category="(?:core|system|xorg|desktop|stuff|games|dev)"\/>$/;
+    }
+    close $fh;
+}
+
 # ====================================================================
 
 sub print_version {
@@ -115,6 +134,7 @@ Lint RSS/Atom feeds.
 
   -m, --missing    check for packages that have no feeds in urls.opml
   -r, --redundant  check for redundant feeds in urls.opml
+  -t, --typos      check urls.opml for typos
   -v, --version    print version and exit
   -h, --help       print help and exit
 EOF
@@ -126,6 +146,7 @@ sub main {
     GetOptions(
         "m|missing"   => \my $opt_missing,
         "r|redundant" => \my $opt_redundant,
+        "t|typos"     => \my $opt_typos,
         "v|version"   => \my $opt_version,
         "h|help"      => \my $opt_help,
     ) or die "Try '$PROGRAM --help' for more information.\n";
@@ -133,8 +154,9 @@ sub main {
     print_version() and exit if $opt_version;
     print_help()    and exit if $opt_help;
 
-    load_feeds();
+    print_typos()     if $opt_typos;
 
+    load_feeds();
     print_missing()   if $opt_missing;
     print_redundant() if $opt_redundant;
 }
