@@ -601,6 +601,7 @@
     <outline text="xcdroast @ sourceforge.net releases" xmlUrl="https://sourceforge.net/projects/xcdroast/rss?path=/" category="desktop"/>
     <outline text="xmlsec @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/lsh123/xmlsec/releases.atom" category="desktop"/>
     <outline text="youtube-dl @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/ytdl-org/youtube-dl/releases.atom" category="desktop"/>
+    <outline text="yt-dlp @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/yt-dlp/yt-dlp/releases.atom" category="desktop"/>
     <outline text="zathura @ github.com tags" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/pwmt/zathura/tags.atom" category="desktop"/>
     <outline text="zathura-djvu @ github.com tags" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/pwmt/zathura-djvu/tags.atom" category="desktop"/>
     <outline text="zathura-pdf-poppler @ github.com tags" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/pwmt/zathura-pdf-poppler/tags.atom" category="desktop"/>
