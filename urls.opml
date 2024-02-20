@@ -314,7 +314,7 @@
     <outline text="valgrind @ sourceware.org commits releases" xmlUrl="https://sourceware.org/git?p=valgrind.git;a=atom" category="system"/>
     <outline text="whois @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/rfc1036/whois/releases.atom" category="system"/>
     <outline text="wireless-tools @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/HewlettPackard/wireless-tools/releases.atom" category="system"/>
-    <outline text="wpa_supplicant @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/wpa_supplicant/-/tags?format=atom" category="system"/>
+    <outline text="wpa-supplicant @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/wpa_supplicant/-/tags?format=atom" category="system"/>
     <outline text="x86-manpages @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/ttmo-O/x86-manpages/commits/master.atom" category="system"/>
     <outline text="x86-manpages @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/ttmo-O/x86-manpages/releases.atom" category="system"/>
     <outline text="yasm @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/yasm/yasm/releases.atom" category="system"/>
