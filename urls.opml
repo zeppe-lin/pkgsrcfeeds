@@ -461,7 +461,7 @@
     <outline text="xorg-xsetroot @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/app/xsetroot/-/tags?format=atom" category="xorg"/>
     <outline text="xorg-xtrans @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/lib/libxtrans/-/tags?format=atom" category="xorg"/>
     <outline text="xorg-xwininfo @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/app/xwininfo/-/tags?format=atom" category="xorg"/>
-    <outline text="xrestop @ github.com/openbsd commits" xmlUrl="https://github.com/openbsd/ports/commits/master/x11/xrestop.atom" category="xorg"/>
+    <outline text="xrestop @ github.com/openbsd commits" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/openbsd/ports/commits/master/x11/xrestop.atom" category="xorg"/>
     <outline text="xsel @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/kfish/xsel/releases.atom" category="xorg"/>
     <outline text="xterm @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/xterm/-/tags?format=atom" category="xorg"/>
 
