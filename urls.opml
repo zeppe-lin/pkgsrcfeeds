@@ -269,7 +269,6 @@
     <outline text="mkinitramfs @ github.com commits" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/zeppe-lin/mkinitramfs/commits/master.atom" category="system"/>
     <outline text="mkrootfs @ github.com commits" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/zeppe-lin/mkrootfs/commits/master.atom" category="system"/>
     <outline text="monit @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/monit/-/tags?format=atom" category="system"/>
-    <outline text="mysql @ pkgsrc.se rss" xmlUrl="https://rss.pkgsrc.se/databases/mysql57-server" category="system"/>
     <outline text="net-tools @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/ecki/net-tools/commits/master.atom" category="system"/>
     <outline text="nettle @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/gnutls/nettle/releases.atom" category="system"/>
     <outline text="nfs-utils @ sourceforge.net releases" xmlUrl="https://sourceforge.net/projects/nfs/rss?path=/nfs-utils" category="system"/>
@@ -562,7 +561,7 @@
     <outline text="qemu @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/qemu/qemu/releases.atom" category="desktop"/>
     <outline text="qemuconf @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/zeppe-lin/qemuconf/commits/master.atom" category="desktop"/>
     <outline text="qrencode @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/fukuchi/libqrencode/releases.atom" category="desktop"/>
-    <outline text="qt5 @ pkgsrc.se rss" xmlUrl="https://rss.pkgsrc.se/x11/qt5" category="desktop"/>
+    <outline text="qt5 @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/qt5-base/-/tags?format=atom" category="desktop"/>
     <outline text="qt5-styleplugins @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/qt/qtstyleplugins/commits/master.atom" category="desktop"/>
     <outline text="qt5-styleplugins @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/qt/qtstyleplugins/releases.atom" category="desktop"/>
     <outline text="qt5ct @ sourceforge.net releases" xmlUrl="https://sourceforge.net/projects/qt5ct/rss?path=/" category="desktop"/>
@@ -577,7 +576,7 @@
     <outline text="st @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/zeppe-lin/st/commits/master.atom" category="desktop"/>
     <outline text="stunnel @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/mtrojnar/stunnel/releases.atom" category="desktop"/>
     <outline text="sxiv @ github.com tags" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/nsxiv/nsxiv/tags.atom" category="desktop"/>
-    <outline text="sylpheed @ pkgsrc.se rss" xmlUrl="https://rss.pkgsrc.se/mail/sylpheed" category="desktop"/>
+    <outline text="sylpheed @ tracker.debian.org" xmlUrl="https://tracker.debian.org/pkg/sylpheed/rss" category="desktop"/>
     <outline text="taglib @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/taglib/taglib/releases.atom" category="desktop"/>
     <outline text="tagutil @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/kaworu/tagutil/releases.atom" category="desktop"/>
     <outline text="toxcore @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/TokTok/c-toxcore/commits/master.atom" category="desktop"/>
@@ -587,7 +586,7 @@
     <outline text="trinity-extra-theme @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/zeppe-lin/trinity-extra-theme/commits/master.atom" category="desktop"/>
     <outline text="trinity-gtk-theme @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/zeppe-lin/trinity-gtk-theme/commits/master.atom" category="desktop"/>
     <outline text="trinity-icon-theme @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/zeppe-lin/trinity-icon-theme/commits/master.atom" category="desktop"/>
-    <outline text="unrar @ pkgsrc.se rss" xmlUrl="https://rss.pkgsrc.se/archivers/unrar" category="desktop"/>
+    <outline text="unrar @ tracker.debian.org" xmlUrl="https://tracker.debian.org/pkg/unrar-nonfree/rss" category="desktop"/>
     <outline text="urlview @ salsa.debian.org tags" xmlUrl="https://salsa.debian.org/debian/urlview/-/tags?format=atom" category="desktop"/>
     <outline text="vifm @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/vifm/vifm/releases.atom" category="desktop"/>
     <outline text="vifm-colors @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/vifm/vifm-colors/releases.atom" category="desktop"/>
