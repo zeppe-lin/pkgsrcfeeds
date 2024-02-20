@@ -866,6 +866,7 @@
     <outline text="sleuthkit @ github.com commits:develop" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/sleuthkit/sleuthkit/commits/develop.atom" category="stuff"/>
     <outline text="sleuthkit @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/sleuthkit/sleuthkit/releases.atom" category="stuff"/>
     <outline text="smplayer @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/smplayer-dev/smplayer/releases.atom" category="stuff"/>
+    <outline text="smplayer-themes @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/smplayer-dev/smplayer-themes/releases.atom" category="stuff"/>
     <outline text="socialscan @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/iojw/socialscan/commits/master.atom" category="stuff"/>
     <outline text="splint @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/splint/-/tags?format=atom" category="stuff"/>
     <outline text="spoofcheck @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/sighook/spoofcheck/commits/master.atom" category="stuff"/>
