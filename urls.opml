@@ -925,9 +925,6 @@
     -->
 
     <outline text="elbullazul's trinity theme @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/gtk-upgraded/Trinity/commits/master.atom" category="dev"/>
-    <outline text="pkgutils @ git.crux.nu commits" xmlUrl="https://git.crux.nu/tools/pkgutils.rss" category="dev"/>
-    <outline text="prt-get @ git.crux.nu commits" xmlUrl="https://git.crux.nu/tools/prt-get.rss" category="dev"/>
-    <outline text="prt-utils @ git.crux.nu commits" xmlUrl="https://git.crux.nu/tools/prt-utils.rss" category="dev"/>
     <outline text="start-stop-daemon (debian upstream) @ github.com commits:main" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/guillemj/dpkg/commits/main/utils/start-stop-daemon.c.atom" category="dev"/>
     <outline text="tinyramfs @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/illiliti/tinyramfs/commits/master.atom" category="dev"/>
 
