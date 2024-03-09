@@ -349,7 +349,7 @@
     <outline text="libvdpau @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/vdpau/libvdpau/-/tags?format=atom" category="xorg"/>
     <outline text="libxkbcommon @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/xkbcommon/libxkbcommon/releases.atom" category="xorg"/>
     <outline text="libxslt @ gitlab.gnome.org tags" xmlUrl="https://gitlab.gnome.org/GNOME/libxslt/-/tags?format=atom" category="xorg"/>
-    <outline text="mesa @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/mesa3d/mesa/releases.atom" category="xorg"/>
+    <outline text="mesa @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/mesa/mesa/-/tags?format=atom" category="xorg"/>
     <outline text="mesa @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/mesa/-/tags?format=atom" category="xorg"/>
     <outline text="mtdev @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/mtdev/-/tags?format=atom" category="xorg"/>
     <outline text="pango @ gitlab.gnome.org tags" xmlUrl="https://gitlab.gnome.org/GNOME/pango/-/tags?format=atom" category="xorg"/>
