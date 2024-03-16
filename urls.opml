@@ -640,7 +640,7 @@
     <outline text="dex2jar-bin @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/pxb1988/dex2jar/releases.atom" category="stuff"/>
     <outline text="dhcp-spoof @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/emanuele-f/dhcp-spoof/commits/master.atom" category="stuff"/>
     <outline text="dhex @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/dhex/-/tags?format=atom" category="stuff"/>
-    <outline text="dnsgen @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/ProjectAnte/dnsgen/commits/master.atom" category="stuff"/>
+    <outline text="dnsgen @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/AlephNullSK/dnsgen/commits/master.atom" category="stuff"/>
     <outline text="docker-bin @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/docker/-/tags?format=atom" category="stuff"/>
     <outline text="docker-compose-bin @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/docker/compose/releases.atom" category="stuff"/>
     <outline text="dos2unix @ sourceforge.net releases" xmlUrl="https://sourceforge.net/projects/dos2unix/rss?path=/dos2unix" category="stuff"/>
