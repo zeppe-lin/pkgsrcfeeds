@@ -38,6 +38,7 @@ my @obsolete_packages = qw(
     xorg-xf86-input-keyboard
     );
 my @internal_packages = qw(
+    xorg
     filesystem
     );
 
