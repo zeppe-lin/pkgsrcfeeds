@@ -371,7 +371,6 @@
     <outline text="ttf-font-twemoji-color @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/13rac1/twemoji-color-font/releases.atom" category="xorg"/>
     <outline text="vulkan-headers @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/vulkan-headers/-/tags?format=atom" category="xorg"/>
     <outline text="vulkan-loader @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/vulkan-icd-loader/-/tags?format=atom" category="xorg"/>
-    <outline text="vulkan-tools @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/vulkan-tools/-/tags?format=atom" category="xorg"/>
     <outline text="xautolock @ tracker.debian.org news" xmlUrl="https://tracker.debian.org/pkg/xautolock/rss" category="xorg"/>
     <outline text="xclip @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/astrand/xclip/releases.atom" category="xorg"/>
     <outline text="xdotool @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/jordansissel/xdotool/releases.atom" category="xorg"/>
@@ -383,7 +382,6 @@
     <outline text="xorg-font-misc-misc @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/font/misc-misc/-/tags?format=atom" category="xorg"/>
     <outline text="xorg-font-util @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/font/util/-/tags?format=atom" category="xorg"/>
     <outline text="xorg-imake @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/util/imake/-/tags?format=atom" category="xorg"/>
-    <outline text="xorg-libdmx @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/lib/libdmx/-/tags?format=atom" category="xorg"/>
     <outline text="xorg-libevdev @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/libevdev/libevdev/-/tags?format=atom" category="xorg"/>
     <outline text="xorg-libfontenc @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/lib/libfontenc/-/tags?format=atom" category="xorg"/>
     <outline text="xorg-libice @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/lib/libice/-/tags?format=atom" category="xorg"/>
@@ -419,7 +417,6 @@
     <outline text="xorg-libxv @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/lib/libxv/-/tags?format=atom" category="xorg"/>
     <outline text="xorg-libxvmc @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/lib/libxvmc/-/tags?format=atom" category="xorg"/>
     <outline text="xorg-libxxf86dga @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/lib/libxxf86dga/-/tags?format=atom" category="xorg"/>
-    <outline text="xorg-libxxf86misc @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/lib/libxxf86misc/-/tags?format=atom" category="xorg"/>
     <outline text="xorg-libxxf86vm @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/lib/libxxf86vm/-/tags?format=atom" category="xorg"/>
     <outline text="xorg-mkfontscale @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/app/mkfontscale/-/tags?format=atom" category="xorg"/>
     <outline text="xorg-rgb @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/app/rgb/-/tags?format=atom" category="xorg"/>
@@ -485,8 +482,6 @@
     <outline text="djvulibre @ sourceforge.net news" xmlUrl="https://sourceforge.net/p/djvu/djvulibre-git/feed" category="desktop"/>
     <outline text="djvulibre @ sourceforge.net releases" xmlUrl="https://sourceforge.net/projects/djvu/rss?path=/DjVuLibre" category="desktop"/>
     <outline text="dunst @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/dunst-project/dunst/releases.atom" category="desktop"/>
-    <outline text="dwm @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/zeppe-lin/dwm/commits/master.atom" category="desktop"/>
-    <outline text="dwmblocks @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/zeppe-lin/dwmblocks/commits/master.atom" category="desktop"/>
     <outline text="fbreader @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/fbreader/-/tags?format=atom" category="desktop"/>
     <outline text="fdk-aac @ sourceforge.net releases" xmlUrl="https://sourceforge.net/projects/opencore-amr/rss?path=/fdk-aac" category="desktop"/>
     <outline text="feh @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/derf/feh/releases.atom" category="desktop"/>
@@ -596,7 +591,6 @@
     <outline text="x264 @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/x264/-/tags?format=atom" category="desktop"/>
     <outline text="xcdroast @ sourceforge.net releases" xmlUrl="https://sourceforge.net/projects/xcdroast/rss?path=/" category="desktop"/>
     <outline text="xmlsec @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/lsh123/xmlsec/releases.atom" category="desktop"/>
-    <outline text="youtube-dl @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/ytdl-org/youtube-dl/releases.atom" category="desktop"/>
     <outline text="yt-dlp @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/yt-dlp/yt-dlp/releases.atom" category="desktop"/>
     <outline text="zathura @ github.com tags" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/pwmt/zathura/tags.atom" category="desktop"/>
     <outline text="zathura-djvu @ github.com tags" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/pwmt/zathura-djvu/tags.atom" category="desktop"/>
@@ -712,7 +706,6 @@
     <outline text="libtorrent-rasterbar @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/arvidn/libtorrent/releases.atom" category="stuff"/>
     <outline text="linkfinder @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/GerbenJavado/LinkFinder/commits/master.atom" category="stuff"/>
     <outline text="linssid @ sourceforge.net releases" xmlUrl="https://sourceforge.net/projects/linssid/rss?path=/" category="stuff"/>
-    <outline text="lsw @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/zeppe-lin/lsw/commits/master.atom" category="stuff"/>
     <outline text="lxrandr @ github.com tags" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/lxde/lxrandr/tags.atom" category="stuff"/>
     <outline text="macchanger @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/alobbs/macchanger/commits/master.atom" category="stuff"/>
     <outline text="macchanger @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/alobbs/macchanger/releases.atom" category="stuff"/>
