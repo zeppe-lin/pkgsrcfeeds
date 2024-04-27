@@ -538,6 +538,7 @@
     <outline text="oath-toolkit @ gitlab.com tags" xmlUrl="https://gitlab.com/oath-toolkit/oath-toolkit/-/tags?format=atom" category="desktop"/>
     <outline text="opus @ gitlab.xiph.org tags" xmlUrl="https://gitlab.xiph.org/xiph/opus/-/tags?format=atom" category="desktop"/>
     <outline text="p5-cairo @ metacpan.org releases" xmlUrl="https://metacpan.org/dist/Cairo/releases.rss" category="desktop"/>
+    <outline text="p5-extutils-config @ metacpan.org releases" xmlUrl="https://metacpan.org/dist/ExtUtils-Config/releases.rss" category="desktop"/>
     <outline text="p5-extutils-depends @ metacpan.org releases" xmlUrl="https://metacpan.org/dist/ExtUtils-Depends/releases.rss" category="desktop"/>
     <outline text="p5-extutils-pkgconfig @ metacpan.org releases" xmlUrl="https://metacpan.org/feed/distribution/ExtUtils-PkgConfig" category="desktop"/>
     <outline text="p5-glib @ metacpan.org releases" xmlUrl="https://metacpan.org/dist/Glib/releases.rss" category="desktop"/>
@@ -738,7 +739,6 @@
     <outline text="p5-devel-cycle @ metacpan.org releases" xmlUrl="https://metacpan.org/dist/Devel-Cycle/releases.rss" category="stuff"/>
     <outline text="p5-digest-hmac @ metacpan.org releases" xmlUrl="https://metacpan.org/dist/Digest-HMAC/releases.rss" category="stuff"/>
     <outline text="p5-encode-locale @ metacpan.org releases" xmlUrl="https://metacpan.org/feed/distribution/Encode-Locale" category="stuff"/>
-    <outline text="p5-extutils-config @ metacpan.org releases" xmlUrl="https://metacpan.org/dist/ExtUtils-Config/releases.rss" category="stuff"/>
     <outline text="p5-extutils-helpers @ metacpan.org releases" xmlUrl="https://metacpan.org/dist/ExtUtils-Helpers/releases.rss" category="stuff"/>
     <outline text="p5-extutils-installpaths @ metacpan.org releases" xmlUrl="https://metacpan.org/dist/ExtUtils-InstallPaths/releases.rss" category="stuff"/>
     <outline text="p5-file-libmagic @ metacpan.org releases" xmlUrl="https://metacpan.org/dist/File-LibMagic/releases.rss" category="stuff"/>
