@@ -762,7 +762,7 @@
     <outline text="p5-http-negotiate @ metacpan.org releases" xmlUrl="https://metacpan.org/dist/HTTP-Negotiate/releases.rss" category="stuff"/>
     <outline text="p5-http-response-encoding @ metacpan.org releases" xmlUrl="https://metacpan.org/dist/HTTP-Response-Encoding/releases.rss" category="stuff"/>
     <outline text="p5-http-server-simple @ metacpan.org releases" xmlUrl="https://metacpan.org/dist/HTTP-Server-Simple/releases.rss" category="stuff"/>
-    <outline text="p5-image-exiftool @ metacpan.org releases" xmlUrl="https://metacpan.org/feed/distribution/Image-ExifTool" category="stuff"/>
+    <outline text="p5-image-exiftool @ metacpan.org releases" xmlUrl="https://exiftool.org/rss.xml" category="stuff"/>
     <outline text="p5-image-size @ metacpan.org releases" xmlUrl="https://metacpan.org/dist/Image-Size/releases.rss" category="stuff"/>
     <outline text="p5-inc-latest @ metacpan.org releases" xmlUrl="https://metacpan.org/dist/inc-latest/releases.rss" category="stuff"/>
     <outline text="p5-io-html @ metacpan.org releases" xmlUrl="https://metacpan.org/feed/distribution/IO-HTML" category="stuff"/>
