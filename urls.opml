@@ -121,7 +121,7 @@
     <outline text="mlocate @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/mlocate/-/tags?format=atom" category="core"/>
     <outline text="mpdecimal @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/mpdecimal/-/tags?format=atom" category="core"/>
     <outline text="nasm @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/netwide-assembler/nasm/releases.atom" category="core"/>
-    <outline text="ncurses @ github.com unofficial releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/mirror/ncurses/releases.atom" category="core"/>
+    <outline text="ncurses @ github.com tags" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/ThomasDickey/ncurses-snapshots/tags.atom" category="core"/>
     <outline text="openssh @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/openssh/openssh-portable/releases.atom" category="core"/>
     <outline text="openssh @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/openssh/-/tags?format=atom" category="core"/>
     <outline text="openssl @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/openssl/openssl/releases.atom" category="core"/>
