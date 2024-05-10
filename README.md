@@ -20,10 +20,10 @@ MAINTAINING
 
 Scripts
 -------
-* `check_dups.sh` checks `urls.opml` for duplicate urls.
-* `check_urls.sh` checks `urls.opml` file for dead links.
-* `lint.pl` performs various checks for `urls.opml` file.  Try
-  `lint.pl --help` for more information.
+  * `check_dups.sh` checks `urls.opml` for duplicate urls.
+  * `check_urls.sh` checks `urls.opml` file for dead links.
+  * `lint.pl` performs various checks for `urls.opml` file.
+    Try `lint.pl --help` for more information.
 
 
 LICENSE
