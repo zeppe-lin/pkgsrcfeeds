@@ -482,6 +482,8 @@
     <outline text="djvulibre @ sourceforge.net news" xmlUrl="https://sourceforge.net/p/djvu/djvulibre-git/feed" category="desktop"/>
     <outline text="djvulibre @ sourceforge.net releases" xmlUrl="https://sourceforge.net/projects/djvu/rss?path=/DjVuLibre" category="desktop"/>
     <outline text="dunst @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/dunst-project/dunst/releases.atom" category="desktop"/>
+    <outline text="dwm @ github.com commits" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/zeppe-lin/dwm/commits/master.atom" category="desktop"/>
+    <outline text="dwmblocks @ github.com commits" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/zeppe-lin/dwmblocks/commits/master.atom" category="desktop"/>
     <outline text="fbreader @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/fbreader/-/tags?format=atom" category="desktop"/>
     <outline text="fdk-aac @ sourceforge.net releases" xmlUrl="https://sourceforge.net/projects/opencore-amr/rss?path=/fdk-aac" category="desktop"/>
     <outline text="feh @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/derf/feh/releases.atom" category="desktop"/>
