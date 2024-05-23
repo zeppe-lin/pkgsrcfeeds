@@ -584,6 +584,7 @@
     <outline text="trinity-icon-theme @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/zeppe-lin/trinity-icon-theme/commits/master.atom" category="desktop"/>
     <outline text="unrar @ tracker.debian.org" xmlUrl="https://tracker.debian.org/pkg/unrar-nonfree/rss" category="desktop"/>
     <outline text="urlview @ salsa.debian.org tags" xmlUrl="https://salsa.debian.org/debian/urlview/-/tags?format=atom" category="desktop"/>
+    <outline text="utf8cpp @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/nemtrif/utfcpp/releases.atom" category="desktop"/>
     <outline text="vifm @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/vifm/vifm/releases.atom" category="desktop"/>
     <outline text="vifm-colors @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/vifm/vifm-colors/releases.atom" category="desktop"/>
     <outline text="wgetpaste @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/zlin/wgetpaste/releases.atom" category="desktop"/>
@@ -915,6 +916,8 @@
     <outline text="openal @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/kcat/openal-soft/releases.atom" category="games"/>
     <outline text="openarena-bin @ salsa.debian.org" xmlUrl="https://salsa.debian.org/games-team/openarena/-/tags?format=atom" category="games"/>
     <outline text="pcsxr @ github.com tags" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/frealgagu/PCSX-Reloaded/tags.atom" category="games"/>
+    <outline text="scanmem @ github.com commits" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/scanmem/scanmem/commits/main.atom" category="games"/>
+    <outline text="scanmem @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/scanmem/scanmem/releases.atom" category="games"/>
     <outline text="snes9x @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/snes9xgit/snes9x/releases.atom" category="games"/>
     <outline text="urbanterror-bin @ github.com/freebsd commits" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/freebsd/freebsd-ports/commits/main/games/urbanterror-data.atom" category="games"/>
     <outline text="zmusic @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/ZDoom/ZMusic/commits/master.atom" category="games"/>
