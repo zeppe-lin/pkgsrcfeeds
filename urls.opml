@@ -221,6 +221,8 @@
     <outline text="gnutls @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/gnutls/gnutls/tags.atom" category="system"/>
     <outline text="grub2/grub2-efi @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/grub/-/tags?format=atom" category="system"/>
     <outline text="handbook @ github.com commits" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/zeppe-lin/handbook/commits/master.atom" category="system"/>
+    <outline text="hddtemp @ github.com commits" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/vitlav/hddtemp/commits/master.atom" category="system"/>
+    <outline text="hddtemp @ github.com tags" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/vitlav/hddtemp/tags.atom" category="system"/>
     <outline text="hostapd @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/hostapd/-/tags?format=atom" category="system"/>
     <outline text="htop @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/htop-dev/htop/releases.atom" category="system"/>
     <outline text="iftop @ salsa.debian.org tags" xmlUrl="https://salsa.debian.org/debian/iftop/-/tags?format=atom" category="system"/>
