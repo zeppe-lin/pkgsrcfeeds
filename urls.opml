@@ -478,6 +478,7 @@
     <outline text="bluez @ github.com tags" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/bluez/bluez/tags.atom" category="desktop"/>
     <outline text="cdrtools @ sourceforge.net releases" xmlUrl="https://sourceforge.net/projects/cdrtools/rss?path=/" category="desktop"/>
     <outline text="chrpath @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/chrpath/-/tags?format=atom" category="desktop"/>
+    <outline text="dapper @ github.com commits" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/jjk-jacky/dapper/commits/master.atom" category="desktop"/>
     <outline text="dav1d @ code.videolan.org tags" xmlUrl="https://code.videolan.org/videolan/dav1d/-/tags?format=atom" category="desktop"/>
     <outline text="dbus @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/dbus/dbus/-/tags?format=atom" category="desktop"/>
     <outline text="dbus-glib @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/dbus/dbus-glib/-/tags?format=atom" category="desktop"/>
@@ -503,6 +504,7 @@
     <outline text="gpgme @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/gpg/gpgme/releases.atom" category="desktop"/>
     <outline text="grabc @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/muquit/grabc/releases.atom" category="desktop"/>
     <outline text="gsm @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/gsm/-/tags?format=atom" category="desktop"/>
+    <outline text="icon-naming-utils @ salsa.debian.org tags" xmlUrl="https://salsa.debian.org/debian/icon-naming-utils/-/tags?format=atom" category="desktop"/>
     <outline text="imagemagick @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/ImageMagick/ImageMagick/releases.atom" category="desktop"/>
     <outline text="imlib2 @ sourceforge.net releases" xmlUrl="https://sourceforge.net/projects/enlightenment/rss?path=/imlib2-src" category="desktop"/>
     <outline text="inxi @ codeberg.org tags" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://codeberg.org/smxi/inxi/tags.rss" category="desktop"/>
