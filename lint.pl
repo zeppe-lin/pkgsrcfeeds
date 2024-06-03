@@ -17,14 +17,15 @@ my $VERSION = '0.1';
 my @obsolete_packages = qw(
     autoconf-2.13
     fuse2
-    gtk-engines
     gtk-engine-hc
     gtk-engine-redmond95
+    gtk-engines
     hcxtools3
     ktsuss
     librsvg-compat
     libxcrypt2.4
     mdk3
+    moc-eqsets
     newsboat213
     pango-compat
     pm-utils
