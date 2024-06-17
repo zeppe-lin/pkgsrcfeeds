@@ -475,6 +475,7 @@
     <outline text="apulse @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/i-rinat/apulse/commits/master.atom" category="desktop"/>
     <outline text="apulse @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/i-rinat/apulse/releases.atom" category="desktop"/>
     <outline text="bluealsa @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/arkq/bluez-alsa/releases.atom" category="desktop"/>
+    <outline text="bluecurve-gtk-theme/bluecurve-icon-theme @ github.com commits" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/neeeeow/Bluecurve/commits/master.atom" category="desktop"/>
     <outline text="bluez @ github.com tags" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/bluez/bluez/tags.atom" category="desktop"/>
     <outline text="cdrtools @ sourceforge.net releases" xmlUrl="https://sourceforge.net/projects/cdrtools/rss?path=/" category="desktop"/>
     <outline text="chrpath @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/chrpath/-/tags?format=atom" category="desktop"/>
@@ -534,6 +535,7 @@
     <outline text="libva-vdpau-driver @ cgit.freedesktop.org commits" xmlUrl="https://cgit.freedesktop.org/vaapi/vdpau-driver/atom" category="desktop"/>
     <outline text="libvdpau-va-gl @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/i-rinat/libvdpau-va-gl/releases.atom" category="desktop"/>
     <outline text="libvorbis @ gitlab.xiph.org tags" xmlUrl="https://gitlab.xiph.org/xiph/vorbis/-/tags?format=atom" category="desktop"/>
+    <outline text="lsw @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/zeppe-lin/lsw/commits/master.atom" category="stuff"/>
     <outline text="lxappearance @ sourceforge.net releases" xmlUrl="https://sourceforge.net/projects/lxde/rss?path=/LXAppearance" category="desktop"/>
     <outline text="lynx @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/lynx/-/tags?format=atom" category="desktop"/>
     <outline text="moc @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/moc/-/tags?format=atom" category="desktop"/>
