@@ -17,6 +17,8 @@ my $VERSION = '0.1';
 my @obsolete_packages = qw(
     autoconf-2.13
     fuse2
+    gnome-icon-theme
+    gtk-engine-bluecurve
     gtk-engine-hc
     gtk-engine-redmond95
     gtk-engines
