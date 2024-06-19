@@ -272,7 +272,7 @@
     <outline text="mkrootfs @ github.com commits" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/zeppe-lin/mkrootfs/commits/master.atom" category="system"/>
     <outline text="monit @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/monit/-/tags?format=atom" category="system"/>
     <outline text="net-tools @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/ecki/net-tools/commits/master.atom" category="system"/>
-    <outline text="nettle @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/gnutls/nettle/releases.atom" category="system"/>
+    <outline text="nettle @ git.lysator.liu.se tags" xmlUrl="https://git.lysator.liu.se/nettle/nettle/-/tags?format=atom" category="system"/>
     <outline text="nfs-utils @ sourceforge.net releases" xmlUrl="https://sourceforge.net/projects/nfs/rss?path=/nfs-utils" category="system"/>
     <outline text="npth @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/gpg/npth/releases.atom" category="system"/>
     <outline text="ntfs-3g @ sourceforge.net news" xmlUrl="https://sourceforge.net/p/ntfs-3g/ntfs-3g/feed/" category="system"/>
