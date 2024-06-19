@@ -631,7 +631,7 @@
     <outline text="btrfs-progs @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/kdave/btrfs-progs/releases.atom" category="stuff"/>
     <outline text="bully @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/aanarchyy/bully/commits/master.atom" category="stuff"/>
     <outline text="bully @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/aanarchyy/bully/releases.atom" category="stuff"/>
-    <outline text="c-ares @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/c-ares/-/tags?format=atom" category="stuff"/>
+    <outline text="c-ares @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/c-ares/c-ares/releases.atom" category="stuff"/>
     <outline text="cabextract @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/kyz/libmspack/releases.atom" category="stuff"/>
     <outline text="captal @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/sighook/captal/commits/master.atom" category="stuff"/>
     <outline text="captal @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/sighook/captal/releases.atom" category="stuff"/>
