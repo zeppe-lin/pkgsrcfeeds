@@ -754,6 +754,7 @@
     <outline text="p5-file-listing @ metacpan.org releases" xmlUrl="https://metacpan.org/dist/File-Listing/releases.rss" category="stuff"/>
     <outline text="p5-file-slurp-tiny @ metacpan.org releases" xmlUrl="https://metacpan.org/dist/File-Slurp-Tiny/releases.rss" category="stuff"/>
     <outline text="p5-file-type @ metacpan.org releases" xmlUrl="https://metacpan.org/dist/File-Type/releases.rss" category="stuff"/>
+    <outline text="p5-file-which @ metacpan.org releases" xmlUrl="https://metacpan.org/dist/File-Which/releases.rss" category="stuff"/>
     <outline text="p5-font-ttf @ metacpan.org releases" xmlUrl="https://metacpan.org/dist/Font-TTF/releases.rss" category="stuff"/>
     <outline text="p5-gd @ metacpan.org releases" xmlUrl="https://metacpan.org/dist/GD/releases.rss" category="stuff"/>
     <outline text="p5-gd-graph @ metacpan.org releases" xmlUrl="https://metacpan.org/dist/GDGraph/releases.rss" category="stuff"/>
