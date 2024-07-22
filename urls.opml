@@ -767,7 +767,7 @@
     <outline text="p5-http-cookiejar @ metacpan.org releases" xmlUrl="https://metacpan.org/dist/HTTP-CookieJar/releases.rss" category="stuff"/>
     <outline text="p5-http-cookies @ metacpan.org releases" xmlUrl="https://metacpan.org/dist/HTTP-Cookies/releases.rss" category="stuff"/>
     <outline text="p5-http-daemon @ metacpan.org releases" xmlUrl="https://metacpan.org/dist/HTTP-Daemon/releases.rss" category="stuff"/>
-    <outline text="p5-http-date @ metacpan.org releases" xmlUrl="https://metacpan.org/feed/distribution/HTTP-Date" category="stuff"/>
+    <outline text="p5-http-date @ metacpan.org releases" xmlUrl="https://metacpan.org/dist/HTTP-Date/releases.rss" category="stuff"/>
     <outline text="p5-http-message @ metacpan.org releases" xmlUrl="https://metacpan.org/dist/HTTP-Message/releases.rss" category="stuff"/>
     <outline text="p5-http-negotiate @ metacpan.org releases" xmlUrl="https://metacpan.org/dist/HTTP-Negotiate/releases.rss" category="stuff"/>
     <outline text="p5-http-response-encoding @ metacpan.org releases" xmlUrl="https://metacpan.org/dist/HTTP-Response-Encoding/releases.rss" category="stuff"/>
