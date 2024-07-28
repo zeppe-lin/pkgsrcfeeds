@@ -662,6 +662,7 @@
     <outline text="gau-bin @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/lc/gau/releases.atom" category="stuff"/>
     <outline text="gencc @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/sighook/gencc/commits/master.atom" category="stuff"/>
     <outline text="gencc @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/sighook/gencc/releases.atom" category="stuff"/>
+    <outline text="ghauri @ github.com commits:main" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/r0oth3x49/ghauri/commits/main.atom" category="stuff"/>
     <outline text="ghidra-bin @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/NationalSecurityAgency/ghidra/releases.atom" category="stuff"/>
     <outline text="gimp-appimage @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/aferrero2707/gimp-appimage/releases.atom" category="stuff"/>
     <outline text="gitleaks-bin @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/gitleaks/gitleaks/releases.atom" category="stuff"/>
