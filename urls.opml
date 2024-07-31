@@ -37,7 +37,7 @@
     <outline text="curl @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/curl/curl/releases.atom" category="core"/>
     <outline text="dash @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/dash/-/tags?format=atom" category="core"/>
     <outline text="db @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/berkeleydb/libdb/releases.atom" category="core"/>
-    <outline text="dcron @ github.com tags" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/dubiousjim/dcron/tags.atom" category="core"/>
+    <outline text="dcron @ github.com tags" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/ptchinster/dcron/tags.atom" category="core"/>
     <outline text="diffutils @ git.savannah.nongnu.org commits" xmlUrl="https://git.savannah.nongnu.org/cgit/diffutils.git/atom" category="core"/>
     <outline text="diffutils @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/diffutils/-/tags?format=atom" category="core"/>
     <outline text="ed @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/ed/-/tags?format=atom" category="core"/>
