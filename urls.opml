@@ -401,7 +401,7 @@
     <outline text="xorg-libxdmcp @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/lib/libxdmcp/-/tags?format=atom" category="xorg"/>
     <outline text="xorg-libxext @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/lib/libxext/-/tags?format=atom" category="xorg"/>
     <outline text="xorg-libxfixes @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/lib/libxfixes/-/tags?format=atom" category="xorg"/>
-    <outline text="xorg-libxfont2 @ gitlab.freedesktop.org tags" xmlUrl="https://crux.nu/gitweb/?p=ports/xorg.git;a=atom;f=xorg-libxfont2" category="xorg"/>
+    <outline text="xorg-libxfont2 @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/lib/libxfont/-/tags?format=atom" category="xorg"/>
     <outline text="xorg-libxft @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/lib/libxft/-/tags?format=atom" category="xorg"/>
     <outline text="xorg-libxi @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/lib/libxi/-/tags?format=atom" category="xorg"/>
     <outline text="xorg-libxinerama @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/lib/libxinerama/-/tags?format=atom" category="xorg"/>
