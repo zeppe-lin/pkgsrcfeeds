@@ -351,8 +351,8 @@
     <outline text="libvdpau @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/vdpau/libvdpau/-/tags?format=atom" category="xorg"/>
     <outline text="libxkbcommon @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/xkbcommon/libxkbcommon/releases.atom" category="xorg"/>
     <outline text="libxslt @ gitlab.gnome.org tags" xmlUrl="https://gitlab.gnome.org/GNOME/libxslt/-/tags?format=atom" category="xorg"/>
-    <outline text="mesa @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/mesa/mesa/-/tags?format=atom" category="xorg"/>
     <outline text="mesa @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/mesa/-/tags?format=atom" category="xorg"/>
+    <outline text="mesa @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/mesa/mesa/-/tags?format=atom" category="xorg"/>
     <outline text="mtdev @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/mtdev/-/tags?format=atom" category="xorg"/>
     <outline text="pango @ gitlab.gnome.org tags" xmlUrl="https://gitlab.gnome.org/GNOME/pango/-/tags?format=atom" category="xorg"/>
     <outline text="picom @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/yshui/picom/releases.atom" category="xorg"/>
@@ -451,6 +451,7 @@
     <outline text="xorg-xkbcomp @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/app/xkbcomp/-/tags?format=atom" category="xorg"/>
     <outline text="xorg-xkill @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/app/xkill/-/tags?format=atom" category="xorg"/>
     <outline text="xorg-xmag @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/app/xmag/-/tags?format=atom" category="xorg"/>
+    <outline text="xorg-xmessage @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/app/xmessage/-/tags?format=atom" category="xorg"/>
     <outline text="xorg-xmodmap @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/app/xmodmap/-/tags?format=atom" category="xorg"/>
     <outline text="xorg-xorgproto @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/proto/xorgproto/-/tags?format=atom" category="xorg"/>
     <outline text="xorg-xprop @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/app/xprop/-/tags?format=atom" category="xorg"/>
