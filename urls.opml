@@ -281,7 +281,7 @@
     <outline text="openvpn @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/OpenVPN/openvpn/releases.atom" category="system"/>
     <outline text="oprofile @ sourceforge.net releases" xmlUrl="https://sourceforge.net/projects/oprofile/rss?path=/oprofile" category="system"/>
     <outline text="p11-kit @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/p11-glue/p11-kit/releases.atom" category="system"/>
-    <outline text="p5-yaml-libyaml @ metacpan.org releases" xmlUrl="https://metacpan.org/dist/YAML-LibYAML/releases.rss" category="stuff"/>
+    <outline text="p5-yaml-libyaml @ metacpan.org releases" xmlUrl="https://metacpan.org/dist/YAML-LibYAML/releases.rss" category="system"/>
     <outline text="parted @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/parted/-/tags?format=atom" category="system"/>
     <outline text="pinentry/pinentry-gtk2 @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/gpg/pinentry/releases.atom" category="system"/>
     <outline text="pkgmaint @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/zeppe-lin/pkgmaint/commits/master.atom" category="system"/>
