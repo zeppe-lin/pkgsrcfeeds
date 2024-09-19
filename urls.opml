@@ -288,7 +288,7 @@
     <outline text="popt @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/rpm-software-management/popt/releases.atom" category="system"/>
     <outline text="postgresql @ github.com tags" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/postgres/postgres/tags.atom" category="system"/>
     <outline text="powertop @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/fenrus75/powertop/releases.atom" category="system"/>
-    <outline text="pv @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/a-j-wood/pv/releases.atom" category="system"/>
+    <outline text="pv @ codeberg.org tags" xmlUrl="https://codeberg.org/a-j-wood/pv/tags.rss" category="system"/>
     <outline text="py3-six @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/benjaminp/six/releases.atom" category="system"/>
     <outline text="rdfind @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/pauldreik/rdfind/releases.atom" category="system"/>
     <outline text="rpcbind @ git.linux-nfs.org commits releases" xmlUrl="http://git.linux-nfs.org/?p=steved/rpcbind.git;a=atom" category="system"/>
