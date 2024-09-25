@@ -429,6 +429,7 @@
     <outline text="xorg-xauth @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/app/xauth/-/tags?format=atom" category="xorg"/>
     <outline text="xorg-xbacklight @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/app/xbacklight/-/tags?format=atom" category="xorg"/>
     <outline text="xorg-xbitmaps @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/data/bitmaps/-/tags?format=atom" category="xorg"/>
+    <outline text="xorg-xcalc @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/app/xcalc/-/tags?format=atom" category="xorg"/>
     <outline text="xorg-xcb-proto @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/proto/xcbproto/-/tags?format=atom" category="xorg"/>
     <outline text="xorg-xcb-util @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/lib/libxcb-util/-/tags?format=atom" category="xorg"/>
     <outline text="xorg-xcb-util-image @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xorg/lib/libxcb-image/-/tags?format=atom" category="xorg"/>
