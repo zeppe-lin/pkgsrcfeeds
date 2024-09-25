@@ -827,6 +827,8 @@
     <outline text="p5-xml-simple @ metacpan.org releases" xmlUrl="https://metacpan.org/feed/distribution/XML-Simple" category="stuff"/>
     <outline text="p7zip @ sourceforge.net releases" xmlUrl="https://sourceforge.net/projects/p7zip/rss?path=/p7zip" category="stuff"/>
     <outline text="padbuster @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/gw0/PadBuster/commits/master.atom" category="stuff"/>
+    <outline text="pawn @ github.com commits:main" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/google/pawn/commits/main.atom" category="stuff"/>
+    <outline text="pawn @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/google/pawn/releases.atom" category="stuff"/>
     <outline text="pcalc @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/vapier/pcalc/releases.atom" category="stuff"/>
     <outline text="pdf2hashcat @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/sighook/pdf2hashcat/commits/master.atom" category="stuff"/>
     <outline text="pdpmake @ github.com tags" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/rmyorston/pdpmake/tags.atom" category="stuff"/>
