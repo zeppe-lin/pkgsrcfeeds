@@ -19,6 +19,8 @@ my @obsolete_packages = qw(
     fuse2
     gnome-icon-theme
     gtk-engine-bluecurve
+    gtk-engine-clearlooks
+    gtk-engine-crux
     gtk-engine-hc
     gtk-engine-redmond95
     gtk-engines
@@ -29,6 +31,7 @@ my @obsolete_packages = qw(
     mdk3
     moc-eqsets
     newsboat213
+    notification-daemon
     pango-compat
     pm-utils
     py-cairo
