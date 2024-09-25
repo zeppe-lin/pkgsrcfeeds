@@ -163,6 +163,8 @@ sub main {
 
     print_version() and exit if $opt_version;
     print_help()    and exit if $opt_help;
+    print_help()    and exit
+        unless $opt_missing or $opt_redundant or $opt_typos;
 
     print_typos()     if $opt_typos;
 
