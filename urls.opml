@@ -376,6 +376,7 @@
     <outline text="vulkan-loader @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/vulkan-icd-loader/-/tags?format=atom" category="xorg"/>
     <outline text="xautolock @ tracker.debian.org news" xmlUrl="https://tracker.debian.org/pkg/xautolock/rss" category="xorg"/>
     <outline text="xclip @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/astrand/xclip/releases.atom" category="xorg"/>
+    <outline text="xdialog @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/xdialog/-/tags?format=atom" category="xorg"/>
     <outline text="xdotool @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/jordansissel/xdotool/releases.atom" category="xorg"/>
     <outline text="xkbswitch @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/zeppe-lin/xkbswitch/commits/master.atom" category="xorg"/>
     <outline text="xkeyboard-config @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config/-/tags?format=atom" category="xorg"/>
