@@ -743,6 +743,7 @@
     <outline text="nuclei-bin @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/projectdiscovery/nuclei/releases.atom" category="stuff"/>
     <outline text="nvidia @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/nvidia/-/tags?format=atom" category="stuff"/>
     <outline text="office2hashcat @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/sighook/office2hashcat/commits/master.atom" category="stuff"/>
+    <outline text="otpcalc @ gitlab.com tags" xmlUrl="https://gitlab.com/otpcalc/otpcalc/-/tags?format=atom" category="stuff"/>
     <outline text="otpcalc @ gitweb.gentoo.org commits:master" xmlUrl="https://gitweb.gentoo.org/repo/gentoo.git/atom/sys-auth/otpcalc?h=master" category="stuff"/>
     <outline text="p0f @ gitlab.archlinux.org tags" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://gitlab.archlinux.org/archlinux/packaging/packages/p0f/-/tags?format=atom" category="stuff"/>
     <outline text="p5-b-cow @ metacpan.org releases" xmlUrl="https://metacpan.org/dist/B-COW/releases.rss" category="stuff"/>
