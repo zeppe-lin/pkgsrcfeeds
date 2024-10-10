@@ -114,7 +114,7 @@
     <outline text="m4 @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/m4/-/tags?format=atom" category="core"/>
     <outline text="make @ git.savannah.nongnu.org commits releases" xmlUrl="https://git.savannah.nongnu.org/cgit/make.git/atom" category="core"/>
     <outline text="make @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/make/-/tags?format=atom" category="core"/>
-    <outline text="man-db @ git.savannah.nongnu.org commits" xmlUrl="https://git.savannah.nongnu.org/cgit/man-db.git/atom" category="core"/>
+    <outline text="man-db @ gitlab.com tags" xmlUrl="https://gitlab.com/man-db/man-db/-/releases.atom" category="core"/>
     <outline text="man-db @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/man-db/-/tags?format=atom" category="core"/>
     <outline text="man-pages @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/man-pages/-/tags?format=atom" category="core"/>
     <outline text="meson @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/mesonbuild/meson/releases.atom" category="core"/>
