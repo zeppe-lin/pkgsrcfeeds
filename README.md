@@ -1,18 +1,19 @@
 OVERVIEW
 ========
 
-This directory contains RSS/Atom feeds for the software used in Zeppe-Lin
-pkgsrc collections.
+This directory contains RSS/Atom feeds for the software used in
+Zeppe-Lin pkgsrc collections.
 
-The main purpose of these feeds is to help maintainer to watch for software
-updates.
+The main purpose of these feeds is to help maintainer to watch for
+software updates.
 
 
 USAGE
 =====
 
 Import `urls.opml` into any feed reader you like.
-In case of **snownews** just copy this file to `~/.config/snownews/` directory.
+In case of **snownews** just copy this file to `~/.config/snownews/`
+directory.
 
 
 MAINTAINING
