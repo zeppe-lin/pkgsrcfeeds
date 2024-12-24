@@ -15,23 +15,29 @@ my $VERSION = '0.1';
 ######################################################################
 
 my @obsolete_packages = qw(
+    adwaita-gtk-theme
     autoconf-2.13
+    avidemux276-appimage
     fuse2
     gnome-icon-theme
     gtk-engine-bluecurve
     gtk-engine-clearlooks
     gtk-engine-crux
     gtk-engine-hc
+    gtk-engine-murrine
     gtk-engine-redmond95
     gtk-engines
     hcxtools3
     ktsuss
     librsvg-compat
+    libwnck
     libxcrypt2.4
     mdk3
     moc-eqsets
     newsboat213
     notification-daemon
+    p5-gnome2-wnck
+    p5-gtk2-notify
     pango-compat
     pm-utils
     py-cairo
@@ -44,8 +50,13 @@ my @obsolete_packages = qw(
     xorg-xf86-input-keyboard
     );
 my @internal_packages = qw(
-    xorg
+    c17
+    c89
+    c99
     filesystem
+    mksslcert
+    usbids
+    xorg
     );
 
 ######################################################################
