@@ -616,7 +616,7 @@
     <outline text="ssvnc @ tracker.debian.org news" xmlUrl="https://tracker.debian.org/pkg/ssvnc/rss" category="desktop"/>
     <outline text="st @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/zeppe-lin/st/commits/master.atom" category="desktop"/>
     <outline text="stunnel @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/mtrojnar/stunnel/releases.atom" category="desktop"/>
-    <outline text="sxiv @ github.com tags" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/nsxiv/nsxiv/tags.atom" category="desktop"/>
+    <outline text="nsxiv @ github.com tags" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/nsxiv/nsxiv/tags.atom" category="desktop"/>
     <outline text="sylpheed @ tracker.debian.org" xmlUrl="https://tracker.debian.org/pkg/sylpheed/rss" category="desktop"/>
     <outline text="taglib @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/taglib/taglib/releases.atom" category="desktop"/>
     <outline text="tagutil @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/kaworu/tagutil/releases.atom" category="desktop"/>
