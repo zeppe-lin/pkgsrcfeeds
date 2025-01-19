@@ -58,6 +58,15 @@ my @internal_packages = qw(
     usbids
     xorg
     );
+my @repos = qw(
+    core
+    system
+    xorg
+    desktop
+    wmaker
+    games
+    stuff
+    );
 
 ######################################################################
 
@@ -69,6 +78,7 @@ my %repo     = map { chomp; $_ => 1 } qx(pkgman printf "%n\n");
 ######################################################################
 
 sub load_feeds {
+    my $categories = join '|', @repos;
     open my $fh, 'urls.opml';
     while (<$fh>) {
         next unless m{
@@ -76,7 +86,7 @@ sub load_feeds {
             <outline\s+
                 text="(?<title>.*?)\s+@.*?"\s+
                 xmlUrl=".*"\s+
-                category="(?:core|system|xorg|desktop|stuff|games)"/>
+                category="(?:$categories)"/>
         }xsm;
         for my $pkg (split /\//, $+{title}) {
             $feed{ $pkg }++;
@@ -121,6 +131,7 @@ EOF
 }
 
 sub print_typos {
+    my $categories = join('|', @repos) . '|dev';
     print <<EOF;
 The following typos was found in urls.opml:
 ===========================================
@@ -134,7 +145,7 @@ EOF
         next if /^\s*<outline text="\(New headlines\)" xmlUrl="smartfeed:\/newitems"\/>$/;
 
         print "malformed line at $lineno: $_\n"
-            unless m/^\s*<outline text=".*?" xmlUrl=".*?" category="(?:core|system|xorg|desktop|stuff|games|dev)"\/>$/;
+            unless m/^\s*<outline text=".*?" xmlUrl=".*?" category="(?:$categories)"\/>$/;
 
         print "wrong github fetching (use curl) at $lineno: $_\n"
             if m/xmlUrl="https:\/\/github.com\/.*.atom"/;
