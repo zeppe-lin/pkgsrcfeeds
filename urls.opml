@@ -654,6 +654,31 @@
     <outline text="zzzfm @ gitlab.com commits" xmlUrl="https://gitlab.com/skidoo/zzzfm/-/commits/master?format=atom" category="desktop"/>
 
     <!--
+      =========
+      = GAMES =
+      =========
+    -->
+
+    <outline text="dgen-sdl @ sourceforge.net releases" xmlUrl="https://sourceforge.net/projects/dgen/rss?path=/dgen" category="games"/>
+    <outline text="freedoom @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/freedoom/freedoom/releases.atom" category="games"/>
+    <outline text="gzdoom @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/ZDoom/gzdoom/commits/master.atom" category="games"/>
+    <outline text="gzdoom @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/ZDoom/gzdoom/releases.atom" category="games"/>
+    <outline text="libcddb @ sourceforge.net releases" xmlUrl="https://sourceforge.net/projects/libcddb/rss?path=/libcddb" category="games"/>
+    <outline text="libcdio @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/libcdio/-/tags?format=atom" category="games"/>
+    <outline text="libsdl2 @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/libsdl-org/SDL/releases.atom" category="games"/>
+    <outline text="libvpx @ github.com tags" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/webmproject/libvpx/tags.atom" category="games"/>
+    <outline text="libwebp @ github.com tags" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/webmproject/libwebp/tags.atom" category="games"/>
+    <outline text="openal @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/kcat/openal-soft/releases.atom" category="games"/>
+    <outline text="openarena-bin @ salsa.debian.org" xmlUrl="https://salsa.debian.org/games-team/openarena/-/tags?format=atom" category="games"/>
+    <outline text="pcsxr @ github.com tags" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/frealgagu/PCSX-Reloaded/tags.atom" category="games"/>
+    <outline text="scanmem @ github.com commits" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/scanmem/scanmem/commits/main.atom" category="games"/>
+    <outline text="scanmem @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/scanmem/scanmem/releases.atom" category="games"/>
+    <outline text="snes9x @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/snes9xgit/snes9x/releases.atom" category="games"/>
+    <outline text="urbanterror-bin @ github.com/freebsd commits" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/freebsd/freebsd-ports/commits/main/games/urbanterror-data.atom" category="games"/>
+    <outline text="zmusic @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/ZDoom/ZMusic/commits/master.atom" category="games"/>
+    <outline text="zmusic @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/ZDoom/ZMusic/releases.atom" category="games"/>
+
+    <!--
       ================
       = PKGSRC-STUFF =
       ================
@@ -960,31 +985,6 @@
     <outline text="yersinia @ releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/tomac/yersinia/releases.atom" category="stuff"/>
     <outline text="zaproxy-bin @ github.com commits:main" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/zaproxy/zaproxy/commits/main.atom" category="stuff"/>
     <outline text="zaproxy-bin @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/zaproxy/zaproxy/releases.atom" category="stuff"/>
-
-    <!--
-      =========
-      = GAMES =
-      =========
-    -->
-
-    <outline text="dgen-sdl @ sourceforge.net releases" xmlUrl="https://sourceforge.net/projects/dgen/rss?path=/dgen" category="games"/>
-    <outline text="freedoom @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/freedoom/freedoom/releases.atom" category="games"/>
-    <outline text="gzdoom @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/ZDoom/gzdoom/commits/master.atom" category="games"/>
-    <outline text="gzdoom @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/ZDoom/gzdoom/releases.atom" category="games"/>
-    <outline text="libcddb @ sourceforge.net releases" xmlUrl="https://sourceforge.net/projects/libcddb/rss?path=/libcddb" category="games"/>
-    <outline text="libcdio @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/libcdio/-/tags?format=atom" category="games"/>
-    <outline text="libsdl2 @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/libsdl-org/SDL/releases.atom" category="games"/>
-    <outline text="libvpx @ github.com tags" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/webmproject/libvpx/tags.atom" category="games"/>
-    <outline text="libwebp @ github.com tags" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/webmproject/libwebp/tags.atom" category="games"/>
-    <outline text="openal @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/kcat/openal-soft/releases.atom" category="games"/>
-    <outline text="openarena-bin @ salsa.debian.org" xmlUrl="https://salsa.debian.org/games-team/openarena/-/tags?format=atom" category="games"/>
-    <outline text="pcsxr @ github.com tags" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/frealgagu/PCSX-Reloaded/tags.atom" category="games"/>
-    <outline text="scanmem @ github.com commits" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/scanmem/scanmem/commits/main.atom" category="games"/>
-    <outline text="scanmem @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/scanmem/scanmem/releases.atom" category="games"/>
-    <outline text="snes9x @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/snes9xgit/snes9x/releases.atom" category="games"/>
-    <outline text="urbanterror-bin @ github.com/freebsd commits" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/freebsd/freebsd-ports/commits/main/games/urbanterror-data.atom" category="games"/>
-    <outline text="zmusic @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/ZDoom/ZMusic/commits/master.atom" category="games"/>
-    <outline text="zmusic @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/ZDoom/ZMusic/releases.atom" category="games"/>
 
     <!--
       =======
