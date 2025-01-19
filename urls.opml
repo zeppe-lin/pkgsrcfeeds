@@ -609,7 +609,6 @@
     <outline text="ratpoison @ git.savannah.nongnu.org commits" xmlUrl="https://git.savannah.nongnu.org/cgit/ratpoison.git/atom" category="desktop"/>
     <outline text="recordmydesktop @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/Enselic/recordmydesktop/releases.atom" category="desktop"/>
     <outline text="retrosmart-cursor-theme @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/mdomlop/retrosmart-x11-cursors/commits/master.atom" category="desktop"/>
-    <outline text="rxvt-unicode @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/rxvt-unicode/-/tags?format=atom" category="desktop"/>
     <outline text="sbc @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/sbc/-/tags?format=atom" category="desktop"/>
     <outline text="scrot @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/resurrecting-open-source-projects/scrot/releases.atom" category="desktop"/>
     <outline text="shntool @ salsa.debian.org tags" xmlUrl="https://salsa.debian.org/debian/shntool/-/tags?format=atom" category="desktop"/>
