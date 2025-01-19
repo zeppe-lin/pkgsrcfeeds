@@ -509,6 +509,7 @@
     <outline text="desktop-file-utils @ gitlab.freedesktop.org tags" xmlUrl="https://gitlab.freedesktop.org/xdg/desktop-file-utils/-/tags?format=atom" category="desktop"/>
     <outline text="djvulibre @ sourceforge.net news" xmlUrl="https://sourceforge.net/p/djvu/djvulibre-git/feed" category="desktop"/>
     <outline text="djvulibre @ sourceforge.net releases" xmlUrl="https://sourceforge.net/projects/djvu/rss?path=/DjVuLibre" category="desktop"/>
+    <outline text="dragon-drop @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/mwh/dragon/releases.atom" category="desktop"/>
     <outline text="dwm @ github.com commits" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/zeppe-lin/dwm/commits/master.atom" category="desktop"/>
     <outline text="dwmblocks @ github.com commits" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/zeppe-lin/dwmblocks/commits/master.atom" category="desktop"/>
     <outline text="fbreader @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/fbreader/-/tags?format=atom" category="desktop"/>
