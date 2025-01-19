@@ -635,6 +635,7 @@
     <outline text="vifm-colors @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/vifm/vifm-colors/releases.atom" category="desktop"/>
     <outline text="wavpack @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/dbry/WavPack/releases.atom" category="desktop"/>
     <outline text="wgetpaste @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/zlin/wgetpaste/releases.atom" category="desktop"/>
+    <outline text="when @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/when/-/tags?format=atom" category="desktop"/>
     <outline text="win3x-gtk-theme @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/zeppe-lin/win3x-gtk-theme/commits/master.atom" category="desktop"/>
     <outline text="x264 @ code.videolan.org commits:master" xmlUrl="https://code.videolan.org/videolan/x264/-/commits/master?format=atom" category="desktop"/>
     <outline text="x264 @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/x264/-/tags?format=atom" category="desktop"/>
