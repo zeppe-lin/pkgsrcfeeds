@@ -189,7 +189,7 @@
       =================
     -->
 
-    <outline text="acpid2 @ sourceforge.net feeds" xmlUrl="https://sourceforge.net/projects/acpid2/rss?path=/" category="system"/>
+    <outline text="acpid @ sourceforge.net feeds" xmlUrl="https://sourceforge.net/projects/acpid2/rss?path=/" category="system"/>
     <outline text="alsa-lib @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/alsa-project/alsa-lib/releases.atom" category="system"/>
     <outline text="alsa-ucm-conf @ github.com tags" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/alsa-project/alsa-ucm-conf/tags.atom" category="system"/>
     <outline text="alsa-utils @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/alsa-project/alsa-utils/releases.atom" category="system"/>
