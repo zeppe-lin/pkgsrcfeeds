@@ -575,6 +575,7 @@
     <outline text="mpv @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/mpv-player/mpv/releases.atom" category="desktop"/>
     <outline text="nspr @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/nspr/-/tags?format=atom" category="desktop"/>
     <outline text="nss @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/nss/-/tags?format=atom" category="desktop"/>
+    <outline text="nsxiv @ github.com tags" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/nsxiv/nsxiv/tags.atom" category="desktop"/>
     <outline text="oath-toolkit @ gitlab.com tags" xmlUrl="https://gitlab.com/oath-toolkit/oath-toolkit/-/tags?format=atom" category="desktop"/>
     <outline text="opus @ gitlab.xiph.org tags" xmlUrl="https://gitlab.xiph.org/xiph/opus/-/tags?format=atom" category="desktop"/>
     <outline text="p5-cairo @ metacpan.org releases" xmlUrl="https://metacpan.org/dist/Cairo/releases.rss" category="desktop"/>
@@ -616,7 +617,6 @@
     <outline text="ssvnc @ tracker.debian.org news" xmlUrl="https://tracker.debian.org/pkg/ssvnc/rss" category="desktop"/>
     <outline text="st @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/zeppe-lin/st/commits/master.atom" category="desktop"/>
     <outline text="stunnel @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/mtrojnar/stunnel/releases.atom" category="desktop"/>
-    <outline text="nsxiv @ github.com tags" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/nsxiv/nsxiv/tags.atom" category="desktop"/>
     <outline text="sylpheed @ tracker.debian.org" xmlUrl="https://tracker.debian.org/pkg/sylpheed/rss" category="desktop"/>
     <outline text="taglib @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/taglib/taglib/releases.atom" category="desktop"/>
     <outline text="tagutil @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/kaworu/tagutil/releases.atom" category="desktop"/>
@@ -640,6 +640,7 @@
     <outline text="x264 @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/x264/-/tags?format=atom" category="desktop"/>
     <outline text="xbindkeys @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/xbindkeys/-/tags?format=atom" category="desktop"/>
     <outline text="xcdroast @ sourceforge.net releases" xmlUrl="https://sourceforge.net/projects/xcdroast/rss?path=/" category="desktop"/>
+    <outline text="xdg-utils @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/xdg-utils/-/tags?format=atom" category="desktop"/>
     <outline text="xmlsec @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/lsh123/xmlsec/releases.atom" category="desktop"/>
     <outline text="xpdf @ gitlab.archlinux.org tags" xmlUrl="https://gitlab.archlinux.org/archlinux/packaging/packages/xpdf/-/tags?format=atom" category="desktop"/>
     <outline text="yt-dlp @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/yt-dlp/yt-dlp/releases.atom" category="desktop"/>
