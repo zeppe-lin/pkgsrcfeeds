@@ -654,6 +654,14 @@
     <outline text="zzzfm @ gitlab.com commits" xmlUrl="https://gitlab.com/skidoo/zzzfm/-/commits/master?format=atom" category="desktop"/>
 
     <!--
+      ==========
+      = WMAKER =
+      ==========
+    -->
+    <outline text="wmaker @ github.com tags" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/window-maker/wmaker/tags.atom" category="wmaker"/>
+    <outline text="dockapps @ github.com tags" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/window-maker/dockapps/tags.atom" category="wmaker"/>
+
+    <!--
       =========
       = GAMES =
       =========
