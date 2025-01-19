@@ -911,6 +911,7 @@
     <outline text="routersploit @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/threat9/routersploit/commits/master.atom" category="stuff"/>
     <outline text="scapy @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/secdev/scapy/commits/master.atom" category="stuff"/>
     <outline text="scapy @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/secdev/scapy/releases.atom" category="stuff"/>
+    <outline text="scc-bin @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/boyter/scc/releases.atom" category="stuff"/>
     <outline text="shellcheck-bin @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/koalaman/shellcheck/releases.atom" category="stuff"/>
     <outline text="sherlock @ github.com commits:master" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/sherlock-project/sherlock/commits/master.atom" category="stuff"/>
     <outline text="shuffledns-bin @ github.com releases" xmlUrl="exec:curl -H 'Accept: application/atom+xml' https://github.com/projectdiscovery/shuffledns/releases.atom" category="stuff"/>
